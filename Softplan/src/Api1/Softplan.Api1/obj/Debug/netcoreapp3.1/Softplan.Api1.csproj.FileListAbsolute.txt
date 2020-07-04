@@ -18,3 +18,17 @@ D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\obj\Debug\netcoreapp3.
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\obj\Debug\netcoreapp3.1\Softplan.Api1.dll
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\obj\Debug\netcoreapp3.1\Softplan.Api1.pdb
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\obj\Debug\netcoreapp3.1\Softplan.Api1.genruntimeconfig.cache
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\bin\Debug\netcoreapp3.1\Softplan.Api1.Application.dll
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\bin\Debug\netcoreapp3.1\Softplan.Api1.Domain.dll
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\bin\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.dll
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\bin\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.pdb
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\bin\Debug\netcoreapp3.1\Softplan.Api1.Application.pdb
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\bin\Debug\netcoreapp3.1\Softplan.Api1.Domain.pdb
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\obj\Debug\netcoreapp3.1\Softplan.Api1.MvcApplicationPartsAssemblyInfo.cs
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1\obj\Debug\netcoreapp3.1\Softplan.Api1.csproj.CopyComplete

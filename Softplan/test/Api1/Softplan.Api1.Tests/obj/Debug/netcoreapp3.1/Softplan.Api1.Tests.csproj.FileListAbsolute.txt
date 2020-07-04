@@ -381,3 +381,13 @@ D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\bin\Debug\netco
 D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\obj\Debug\netcoreapp3.1\Softplan.Api1.Tests.csproj.CoreCompileInputs.cache
 D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\obj\Debug\netcoreapp3.1\Softplan.Api1.Tests.dll
 D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\obj\Debug\netcoreapp3.1\Softplan.Api1.Tests.pdb
+D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\bin\Debug\netcoreapp3.1\Softplan.Api1.Application.dll
+D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\bin\Debug\netcoreapp3.1\Softplan.Api1.Domain.dll
+D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\bin\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.dll
+D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\bin\Debug\netcoreapp3.1\Softplan.Api1.Application.pdb
+D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\bin\Debug\netcoreapp3.1\Softplan.Api1.Domain.pdb
+D:\Visual Studio\Softplan\Softplan\test\Api1\Softplan.Api1.Tests\bin\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.pdb

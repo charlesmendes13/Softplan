@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Softplan.Api1.Infrastructure.IoC;
 
 namespace Softplan.Api1
 {
@@ -25,7 +26,23 @@ namespace Softplan.Api1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // IoC
+
+            InjetorDependencias.Registrar(services);
+
             services.AddControllers();
+
+            // Swagger
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Title = "Softplan API 1",
+                    Description = "API 1 do Desafio para Desenvolvedor Softplan",
+                    Version = "v1"
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,6 +54,15 @@ namespace Softplan.Api1
             }
 
             app.UseHttpsRedirection();
+
+            // Swagger
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Softplan API 1");
+            });
 
             app.UseRouting();
 

@@ -7,7 +7,7 @@ using System.Net.Http;
 
 namespace Softplan.Api1.Tests.Scenarios
 {
-    public class TaxaJurosTests
+    public class TaxaJurosTests : IClassFixture<WebApplicationFactory<Startup>>
     {
         private readonly WebApplicationFactory<Startup> _factory;
 
@@ -18,7 +18,7 @@ namespace Softplan.Api1.Tests.Scenarios
 
         [Theory]
         [InlineData("GET")]
-        public async Task TaxaJuros_Get_ReturnsOkResponse(string metodo)
+        public async void TaxaJuros_Get_ReturnsOkResponse(string metodo)
         {
             var client = _factory.CreateClient();
 
