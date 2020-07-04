@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Api1.Application.T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Api2.Application.Tests", "test\Api2\Softplan.Api2.Application.Tests\Softplan.Api2.Application.Tests.csproj", "{76DB9014-B144-4DC3-8426-73E3901B3B67}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CCCFBAE4-BA9F-4486-9141-4A7E510CBB0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,10 @@ Global
 		{76DB9014-B144-4DC3-8426-73E3901B3B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76DB9014-B144-4DC3-8426-73E3901B3B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76DB9014-B144-4DC3-8426-73E3901B3B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCFBAE4-BA9F-4486-9141-4A7E510CBB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCFBAE4-BA9F-4486-9141-4A7E510CBB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCFBAE4-BA9F-4486-9141-4A7E510CBB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCFBAE4-BA9F-4486-9141-4A7E510CBB0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

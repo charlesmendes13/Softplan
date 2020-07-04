@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  softplan.api1:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8001:80"
+
+  softplan.api2:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8002:80"
+

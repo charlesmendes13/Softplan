@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  softplan.api1:
+    image: ${DOCKER_REGISTRY-}softplanapi1
+    build:
+      context: .
+      dockerfile: src/Api1/Softplan.Api1/Dockerfile
+
+  softplan.api2:
+    image: ${DOCKER_REGISTRY-}softplanapi2
+    build:
+      context: .
+      dockerfile: src/Api2/Softplan.Api2/Dockerfile
