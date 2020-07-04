@@ -92,9 +92,13 @@ D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\bin
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\bin\Debug\netcoreapp3.1\Softplan.Api1.Application.dll
+D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\bin\Debug\netcoreapp3.1\Softplan.Api1.Domain.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Application.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.dll
+D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\bin\Debug\netcoreapp3.1\Softplan.Api1.Application.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Application.pdb
+D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\bin\Debug\netcoreapp3.1\Softplan.Api1.Domain.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\obj\Debug\netcoreapp3.1\Softplan.Api2.Application.Tests.csprojAssemblyReference.cache
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Application.Tests\obj\Debug\netcoreapp3.1\Softplan.Api2.Application.Tests.AssemblyInfoInputs.cache

@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Api1\Softplan.Api1.Application\Softplan.Api1.Application.csproj" />
     <ProjectReference Include="..\..\..\src\Api2\Softplan.Api2.Application\Softplan.Api2.Application.csproj" />
   </ItemGroup>
 

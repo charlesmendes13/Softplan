@@ -1,29 +1,28 @@
-﻿using Softplan.Api2.Application.Extensions;
+﻿using Softplan.Api1.Domain.Interfaces.Services;
+using Softplan.Api2.Application.Extensions;
 using Softplan.Api2.Domain.Interfaces.Services;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Softplan.Api2.Application.Services
 {
     public class CalculaJurosService : ICalculaJurosService
     {
-        private readonly IApi1Service _api1Service;
+        private readonly ITaxaJurosService _taxaJurosService;
 
-        public CalculaJurosService(IApi1Service api1Service)
+        public CalculaJurosService(ITaxaJurosService taxaJurosService)
         {
-            _api1Service = api1Service;
+            _taxaJurosService = taxaJurosService;
         }
 
-        public async Task<decimal> CalcularAsync(decimal valorInicial, int meses)
+        public decimal Calcular(decimal valorInicial, int meses)
         {
-            var juros = await _api1Service.ObterTaxaJurosAsync();
+            var juros = _taxaJurosService.Obter();
 
-            var variante = Math.Pow((double)juros + 1, meses);
-            var totalJuros = (double)valorInicial * variante;
+            var calculo = (decimal)Math.Pow((double)(1 + juros), meses);
+            calculo = valorInicial * calculo;
 
-            return ((double)totalJuros).TruncateDecimal();
+            return calculo.TruncateDecimal(2);
         }
     }
 }

@@ -6,9 +6,12 @@ namespace Softplan.Api2.Application.Extensions
 {
     public static class DecimalExtensions
     {
-        public static decimal TruncateDecimal(this double value)
+        public static decimal TruncateDecimal(this decimal value, int places)
         {
-            return (decimal)Math.Truncate(value * 100) / 100;
+            decimal step = (decimal)Math.Pow(10, places);
+            decimal tmp = Math.Truncate(step * value);
+
+            return tmp / step;
         }
     }
 }

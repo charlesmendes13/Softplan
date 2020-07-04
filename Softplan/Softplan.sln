@@ -21,29 +21,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Api1.Tests", "test
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layers", "Layers", "{11252B3B-9EAD-4967-90D1-4D4563415491}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Api1.Domain", "src\Api1\Softplan.Api1.Domain\Softplan.Api1.Domain.csproj", "{3E1BB938-D8A0-4292-945B-8B93838D710D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Api1.Domain", "src\Api1\Softplan.Api1.Domain\Softplan.Api1.Domain.csproj", "{3E1BB938-D8A0-4292-945B-8B93838D710D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Api1.Application", "src\Api1\Softplan.Api1.Application\Softplan.Api1.Application.csproj", "{CEAFA383-1E7D-4959-BE03-3C4CD825B542}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Api1.Application", "src\Api1\Softplan.Api1.Application\Softplan.Api1.Application.csproj", "{CEAFA383-1E7D-4959-BE03-3C4CD825B542}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Api1.Infrastructure.IoC", "src\Api1\Softplan.Api1.Infrastructure.IoC\Softplan.Api1.Infrastructure.IoC.csproj", "{E811D8E1-ECC3-43A6-8264-E22880ED0FCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Api1.Infrastructure.IoC", "src\Api1\Softplan.Api1.Infrastructure.IoC\Softplan.Api1.Infrastructure.IoC.csproj", "{E811D8E1-ECC3-43A6-8264-E22880ED0FCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Api2", "src\Api2\Softplan.Api2\Softplan.Api2.csproj", "{8304DB8C-DBAB-421C-A7EA-852CC5A3F4E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Api2", "src\Api2\Softplan.Api2\Softplan.Api2.csproj", "{8304DB8C-DBAB-421C-A7EA-852CC5A3F4E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Api2.Tests", "test\Api2\Softplan.Api2.Tests\Softplan.Api2.Tests.csproj", "{6ED27914-5B2B-4FEC-B8C3-BB533958479E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Api2.Tests", "test\Api2\Softplan.Api2.Tests\Softplan.Api2.Tests.csproj", "{6ED27914-5B2B-4FEC-B8C3-BB533958479E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layers", "Layers", "{7335D3AF-E13B-4285-BA5E-6A7317506018}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Api2.Domain", "src\Api2\Softplan.Api2.Domain\Softplan.Api2.Domain.csproj", "{9034E3A0-2A8F-412B-8E14-D84DBC5A091B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Api2.Domain", "src\Api2\Softplan.Api2.Domain\Softplan.Api2.Domain.csproj", "{9034E3A0-2A8F-412B-8E14-D84DBC5A091B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Api2.Application", "src\Api2\Softplan.Api2.Application\Softplan.Api2.Application.csproj", "{DA9D503B-29EF-40DB-A95D-088D808D42FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Api2.Application", "src\Api2\Softplan.Api2.Application\Softplan.Api2.Application.csproj", "{DA9D503B-29EF-40DB-A95D-088D808D42FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Api2.Infrastructure.IoC", "src\Api2\Softplan.Api2.Infrastructure.IoC\Softplan.Api2.Infrastructure.IoC.csproj", "{215CD137-D5ED-4A5C-888D-89733F628DA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Api2.Infrastructure.IoC", "src\Api2\Softplan.Api2.Infrastructure.IoC\Softplan.Api2.Infrastructure.IoC.csproj", "{215CD137-D5ED-4A5C-888D-89733F628DA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Api2.Infrastructure.Http", "src\Api2\Softplan.Api2.Infrastructure.Http\Softplan.Api2.Infrastructure.Http.csproj", "{609EEF9F-2341-4E96-8A7A-F5F18A591835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Api1.Application.Tests", "test\Api1\Softplan.Api1.Application.Tests\Softplan.Api1.Application.Tests.csproj", "{9CD9BEA5-153A-4CFF-8750-4CCC339BDC3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Api1.Application.Tests", "test\Api1\Softplan.Api1.Application.Tests\Softplan.Api1.Application.Tests.csproj", "{9CD9BEA5-153A-4CFF-8750-4CCC339BDC3A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Api2.Application.Tests", "test\Api2\Softplan.Api2.Application.Tests\Softplan.Api2.Application.Tests.csproj", "{76DB9014-B144-4DC3-8426-73E3901B3B67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Api2.Application.Tests", "test\Api2\Softplan.Api2.Application.Tests\Softplan.Api2.Application.Tests.csproj", "{76DB9014-B144-4DC3-8426-73E3901B3B67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,10 +89,6 @@ Global
 		{215CD137-D5ED-4A5C-888D-89733F628DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{215CD137-D5ED-4A5C-888D-89733F628DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{215CD137-D5ED-4A5C-888D-89733F628DA0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{609EEF9F-2341-4E96-8A7A-F5F18A591835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{609EEF9F-2341-4E96-8A7A-F5F18A591835}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{609EEF9F-2341-4E96-8A7A-F5F18A591835}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{609EEF9F-2341-4E96-8A7A-F5F18A591835}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9CD9BEA5-153A-4CFF-8750-4CCC339BDC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9CD9BEA5-153A-4CFF-8750-4CCC339BDC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CD9BEA5-153A-4CFF-8750-4CCC339BDC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -124,7 +118,6 @@ Global
 		{9034E3A0-2A8F-412B-8E14-D84DBC5A091B} = {7335D3AF-E13B-4285-BA5E-6A7317506018}
 		{DA9D503B-29EF-40DB-A95D-088D808D42FC} = {7335D3AF-E13B-4285-BA5E-6A7317506018}
 		{215CD137-D5ED-4A5C-888D-89733F628DA0} = {7335D3AF-E13B-4285-BA5E-6A7317506018}
-		{609EEF9F-2341-4E96-8A7A-F5F18A591835} = {7335D3AF-E13B-4285-BA5E-6A7317506018}
 		{9CD9BEA5-153A-4CFF-8750-4CCC339BDC3A} = {09C834A7-2F3A-47A8-BD7B-90E904F2DC53}
 		{76DB9014-B144-4DC3-8426-73E3901B3B67} = {BB667856-E090-420F-991A-C38E9588E95F}
 	EndGlobalSection
