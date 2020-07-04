@@ -1,13 +1,13 @@
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\bin\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.deps.json
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\bin\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.dll
-D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\obj\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.csprojAssemblyReference.cache
-D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\obj\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.AssemblyInfoInputs.cache
-D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\obj\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.AssemblyInfo.cs
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\bin\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.pdb
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\bin\Debug\netcoreapp3.1\Softplan.Api1.Application.dll
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\bin\Debug\netcoreapp3.1\Softplan.Api1.Domain.dll
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\bin\Debug\netcoreapp3.1\Softplan.Api1.Application.pdb
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\bin\Debug\netcoreapp3.1\Softplan.Api1.Domain.pdb
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\obj\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.csprojAssemblyReference.cache
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\obj\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.AssemblyInfoInputs.cache
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\obj\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.AssemblyInfo.cs
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\obj\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.csproj.CoreCompileInputs.cache
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\obj\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.csproj.CopyComplete
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Infrastructure.IoC\obj\Debug\netcoreapp3.1\Softplan.Api1.Infrastructure.IoC.dll

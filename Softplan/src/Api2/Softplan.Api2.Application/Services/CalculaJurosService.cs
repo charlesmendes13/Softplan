@@ -20,9 +20,10 @@ namespace Softplan.Api2.Application.Services
         {
             var juros = await _api1Service.ObterTaxaJurosAsync();
 
-            var resultado = (double)valorInicial * Math.Pow((double)juros + 1, meses);
+            var variante = Math.Pow((double)juros + 1, meses);
+            var totalJuros = (double)valorInicial * variante;
 
-            return ((decimal)resultado).TruncateDecimal(2);
+            return ((double)totalJuros).TruncateDecimal();
         }
     }
 }

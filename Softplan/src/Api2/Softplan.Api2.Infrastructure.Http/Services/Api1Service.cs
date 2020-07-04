@@ -1,4 +1,6 @@
-﻿using Softplan.Api2.Domain.Interfaces.Services;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.Extensions;
+using Softplan.Api2.Domain.Interfaces.Services;
 using Softplan.Api2.Infrastructure.Http.Extensions;
 using System;
 using System.Collections.Generic;
@@ -12,7 +14,7 @@ namespace Softplan.Api2.Infrastructure.Http.Services
     {
         public async Task<decimal> ObterTaxaJurosAsync()
         {
-            var url = "https://localhost:44369/api/TaxaJuros/";
+            var url = "http://localhost:50691/api/TaxaJuros/";
 
             var response = await RequestHttp.Request(url);
 

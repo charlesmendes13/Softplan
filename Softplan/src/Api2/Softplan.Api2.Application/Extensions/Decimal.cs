@@ -6,19 +6,9 @@ namespace Softplan.Api2.Application.Extensions
 {
     public static class Decimal
     {
-        public static decimal TruncateDecimal(this decimal valor, int decimais)
+        public static decimal TruncateDecimal(this double value)
         {
-            decimal valorIntegral = Math.Truncate(valor);
-
-            decimal fracao = valor - valorIntegral;
-
-            decimal fator = (decimal)Math.Pow(10, decimais);
-
-            decimal fracaoTruncada = Math.Truncate(fracao * fator) / fator;
-
-            decimal resultado = valorIntegral + fracaoTruncada;
-
-            return resultado;
+            return (decimal)Math.Truncate(value * 100) / 100;
         }
     }
 }
