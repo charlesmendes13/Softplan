@@ -3,9 +3,47 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5F33F5CB-2D6C-49C6-89F4-7FE49D6E69CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9926C516-24E2-436E-9713-B51D64D5C28E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api1", "Api1", "{EF9CEBE1-57E8-4B2E-BE0C-8CC6E534D55C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api2", "Api2", "{154F286F-A967-4F33-B3FF-71B6BC2A8213}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api1", "Api1", "{09C834A7-2F3A-47A8-BD7B-90E904F2DC53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api2", "Api2", "{BB667856-E090-420F-991A-C38E9588E95F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Api1", "src\Api1\Softplan.Api1\Softplan.Api1.csproj", "{2B10B0A8-D5B8-4DC8-864F-7F8AF1604ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Api1.Tests", "test\Api1\Softplan.Api1.Tests\Softplan.Api1.Tests.csproj", "{F7A04135-6524-4312-B15F-237454831CA7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B10B0A8-D5B8-4DC8-864F-7F8AF1604ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B10B0A8-D5B8-4DC8-864F-7F8AF1604ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B10B0A8-D5B8-4DC8-864F-7F8AF1604ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B10B0A8-D5B8-4DC8-864F-7F8AF1604ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A04135-6524-4312-B15F-237454831CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A04135-6524-4312-B15F-237454831CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A04135-6524-4312-B15F-237454831CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A04135-6524-4312-B15F-237454831CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF9CEBE1-57E8-4B2E-BE0C-8CC6E534D55C} = {5F33F5CB-2D6C-49C6-89F4-7FE49D6E69CF}
+		{154F286F-A967-4F33-B3FF-71B6BC2A8213} = {5F33F5CB-2D6C-49C6-89F4-7FE49D6E69CF}
+		{09C834A7-2F3A-47A8-BD7B-90E904F2DC53} = {9926C516-24E2-436E-9713-B51D64D5C28E}
+		{BB667856-E090-420F-991A-C38E9588E95F} = {9926C516-24E2-436E-9713-B51D64D5C28E}
+		{2B10B0A8-D5B8-4DC8-864F-7F8AF1604ADB} = {EF9CEBE1-57E8-4B2E-BE0C-8CC6E534D55C}
+		{F7A04135-6524-4312-B15F-237454831CA7} = {09C834A7-2F3A-47A8-BD7B-90E904F2DC53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8BFAB150-E5BD-4131-AF92-124D99D1528C}
