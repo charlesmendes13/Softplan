@@ -14,9 +14,9 @@ namespace Softplan.Api2.Infrastructure.Http.Services
     {
         public async Task<decimal> ObterTaxaJurosAsync()
         {
-            var url = "http://localhost:50691/api/TaxaJuros/";
+            var url = "https://localhost:44369/api/TaxaJuros/";
 
-            var response = await RequestHttp.Request(url);
+            var response = await RequestHttpExtensions.Request(url);
 
             decimal taxa = JsonSerializer.Deserialize<decimal>(response);
 

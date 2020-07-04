@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Softplan.Api2.Infrastructure.Http.Extensions
 {
-    public static class RequestHttp
+    public static class RequestHttpExtensions
     {
         public static async Task<string> Request(string url)
         {
@@ -21,6 +21,5 @@ namespace Softplan.Api2.Infrastructure.Http.Extensions
 
             return response;
         }
-
     }
 }

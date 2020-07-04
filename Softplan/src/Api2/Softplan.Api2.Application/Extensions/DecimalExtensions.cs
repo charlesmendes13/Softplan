@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Softplan.Api2.Application.Extensions
 {
-    public static class Decimal
+    public static class DecimalExtensions
     {
         public static decimal TruncateDecimal(this double value)
         {
