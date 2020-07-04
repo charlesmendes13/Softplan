@@ -20,9 +20,9 @@ namespace Softplan.Api2.Controllers
         }
 
         [HttpGet]
-        public decimal CalcularJuros([FromQuery] decimal valorInicial, [FromQuery] int meses)
+        public async Task<decimal> CalcularJurosAsync([FromQuery] decimal valorInicial, [FromQuery] int meses)
         {
-            return _calculaJurosService.Calcular(valorInicial, meses);
+            return await _calculaJurosService.CalcularAsync(valorInicial, meses);
         }
     }
 }

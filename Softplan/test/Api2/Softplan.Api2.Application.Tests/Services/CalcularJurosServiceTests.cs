@@ -13,19 +13,19 @@ namespace Softplan.Api2.Application.Tests.Services
 {
     public class CalcularJurosServiceTests
     {
-        private readonly TaxaJurosService _taxaJurosService;
+        private readonly Mock<IApi1Service> _api1ServiceMock = new Mock<IApi1Service>();
         private readonly CalculaJurosService _calculaJurosService;
 
         public CalcularJurosServiceTests()
         {
-            _taxaJurosService = new TaxaJurosService();
-            _calculaJurosService = new CalculaJurosService(_taxaJurosService);
+            _api1ServiceMock.Setup(x => x.ObterTaxaJurosAsync()).Returns(Task.FromResult(0.01m));
+            _calculaJurosService = new CalculaJurosService(_api1ServiceMock.Object);
         }
 
         [Fact]
-        public void Calcula_Juros()
+        public void Calcula_Juros_Async()
         {
-            var resultado = _calculaJurosService.Calcular(100, 5);
+            var resultado = _calculaJurosService.CalcularAsync(100, 5).GetAwaiter().GetResult();
 
             resultado.Should().Be((decimal)105.1);
         }

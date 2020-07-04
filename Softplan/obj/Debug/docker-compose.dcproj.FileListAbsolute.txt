@@ -15,6 +15,7 @@ D:\Visual Studio\Softplan\Softplan\bin\Debug\Microsoft.OpenApi.dll
 D:\Visual Studio\Softplan\Softplan\bin\Debug\Softplan.Api2.Domain.dll
 D:\Visual Studio\Softplan\Softplan\bin\Debug\Softplan.Api2.Infrastructure.IoC.dll
 D:\Visual Studio\Softplan\Softplan\bin\Debug\Softplan.Api1.Application.dll
+D:\Visual Studio\Softplan\Softplan\bin\Debug\Softplan.Api2.Infrastructure.Http.dll
 D:\Visual Studio\Softplan\Softplan\bin\Debug\Softplan.Api2.Application.dll
 D:\Visual Studio\Softplan\Softplan\bin\Debug\Softplan.Api1.pdb
 D:\Visual Studio\Softplan\Softplan\bin\Debug\Softplan.Api2.pdb
@@ -23,6 +24,7 @@ D:\Visual Studio\Softplan\Softplan\bin\Debug\Softplan.Api1.Infrastructure.IoC.pd
 D:\Visual Studio\Softplan\Softplan\bin\Debug\Softplan.Api2.Domain.pdb
 D:\Visual Studio\Softplan\Softplan\bin\Debug\Softplan.Api2.Infrastructure.IoC.pdb
 D:\Visual Studio\Softplan\Softplan\bin\Debug\Softplan.Api1.Application.pdb
+D:\Visual Studio\Softplan\Softplan\bin\Debug\Softplan.Api2.Infrastructure.Http.pdb
 D:\Visual Studio\Softplan\Softplan\bin\Debug\Softplan.Api2.Application.pdb
 D:\Visual Studio\Softplan\Softplan\obj\Debug\docker-compose.dcprojAssemblyReference.cache
 D:\Visual Studio\Softplan\Softplan\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

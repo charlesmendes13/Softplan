@@ -7,6 +7,6 @@ namespace Softplan.Api2.Domain.Interfaces.Services
 {
     public interface ICalculaJurosService
     {
-        decimal Calcular(decimal valorInicial, int meses);
+        Task<decimal> CalcularAsync(decimal valorInicial, int meses);
     }
 }

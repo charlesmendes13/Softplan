@@ -54,7 +54,7 @@ namespace Softplan.Api2
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             // Swagger
 

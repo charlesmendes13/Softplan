@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eRiToUl+M8LIyYrY/Is7RYFY2udUK1gKuCOHaSWjt2qyXOLjBYDIOtCCPNqUbCmWHbeqYAAX40coUEUTMZza1A==",
+  "success": true,
+  "projectFilePath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Http\\Softplan.Api2.Infrastructure.Http.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

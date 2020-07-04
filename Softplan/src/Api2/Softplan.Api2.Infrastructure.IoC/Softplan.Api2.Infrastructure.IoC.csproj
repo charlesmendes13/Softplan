@@ -12,6 +12,7 @@
     <ProjectReference Include="..\..\Api1\Softplan.Api1.Application\Softplan.Api1.Application.csproj" />
     <ProjectReference Include="..\Softplan.Api2.Application\Softplan.Api2.Application.csproj" />
     <ProjectReference Include="..\Softplan.Api2.Domain\Softplan.Api2.Domain.csproj" />
+    <ProjectReference Include="..\Softplan.Api2.Infrastructure.Http\Softplan.Api2.Infrastructure.Http.csproj" />
   </ItemGroup>
 
 </Project>

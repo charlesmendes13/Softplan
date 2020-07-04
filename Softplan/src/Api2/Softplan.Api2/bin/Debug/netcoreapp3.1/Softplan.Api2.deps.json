@@ -430,12 +430,24 @@
           "Softplan.Api2.Domain.dll": {}
         }
       },
+      "Softplan.Api2.Infrastructure.Http/1.0.0": {
+        "dependencies": {
+          "Softplan.Api2.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Softplan.Api2.Infrastructure.Http.dll": {}
+        },
+        "compile": {
+          "Softplan.Api2.Infrastructure.Http.dll": {}
+        }
+      },
       "Softplan.Api2.Infrastructure.IoC/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "3.1.5",
           "Softplan.Api1.Application": "1.0.0",
           "Softplan.Api2.Application": "1.0.0",
-          "Softplan.Api2.Domain": "1.0.0"
+          "Softplan.Api2.Domain": "1.0.0",
+          "Softplan.Api2.Infrastructure.Http": "1.0.0"
         },
         "runtime": {
           "Softplan.Api2.Infrastructure.IoC.dll": {}
@@ -2157,6 +2169,11 @@
       "sha512": ""
     },
     "Softplan.Api2.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Softplan.Api2.Infrastructure.Http/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -382,12 +382,14 @@ D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\bin\Debug\netco
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Application.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.dll
+D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Http.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.IoC.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\bin\Debug\netcoreapp3.1\Softplan.Api1.Application.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\bin\Debug\netcoreapp3.1\Softplan.Api1.Domain.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Application.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.pdb
+D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Http.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.IoC.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\obj\Debug\netcoreapp3.1\Softplan.Api2.Tests.csprojAssemblyReference.cache
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Tests\obj\Debug\netcoreapp3.1\Softplan.Api2.Tests.AssemblyInfoInputs.cache
