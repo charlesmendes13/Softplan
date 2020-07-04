@@ -1,5 +1,8 @@
 # Seleção de pessoa Desenvolvedora .Net Core
 
+## Executar download do Docker
+* https://docs.docker.com
+
 ## Executar a aplicação
 ```
 > docker-compose up
