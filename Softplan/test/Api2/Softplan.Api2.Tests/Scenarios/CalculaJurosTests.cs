@@ -46,7 +46,7 @@ namespace Softplan.Api2.Tests.Scenarios
 
             var result = await response.Content.ReadAsStringAsync();
 
-            result.Should().Be("105.10100501");
+            result.Should().Be("105.1");
         }
     }
 }

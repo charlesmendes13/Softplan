@@ -26,7 +26,7 @@ namespace Softplan.Api2.Application.Tests.Services
         {
             var resultado = _calculaJurosService.CalcularAsync(100, 5).GetAwaiter().GetResult();
 
-            resultado.Should().Be((decimal)105.10100501);
+            resultado.Should().Be((decimal)105.1);
         }
     }
 }

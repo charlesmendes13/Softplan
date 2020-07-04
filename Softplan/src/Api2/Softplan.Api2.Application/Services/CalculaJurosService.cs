@@ -1,4 +1,5 @@
-﻿using Softplan.Api2.Domain.Interfaces.Services;
+﻿using Softplan.Api2.Application.Extensions;
+using Softplan.Api2.Domain.Interfaces.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -21,7 +22,7 @@ namespace Softplan.Api2.Application.Services
 
             var resultado = (double)valorInicial * Math.Pow((double)juros + 1, meses);
 
-            return (decimal)resultado;
+            return ((decimal)resultado).TruncateDecimal(2);
         }
     }
 }
