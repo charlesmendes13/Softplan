@@ -9,10 +9,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Softplan.Api2.Infrastructure.IoC\Softplan.Api2.Infrastructure.IoC.csproj" />
   </ItemGroup>
 
 

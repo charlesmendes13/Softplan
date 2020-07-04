@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Softplan.Api2.Infrastructure.Http/1.0.0": {
+        "dependencies": {
+          "Softplan.Api2.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Softplan.Api2.Infrastructure.Http.dll": {}
+        }
+      },
+      "Softplan.Api2.Domain/1.0.0": {
+        "runtime": {
+          "Softplan.Api2.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Softplan.Api2.Infrastructure.Http/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Softplan.Api2.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

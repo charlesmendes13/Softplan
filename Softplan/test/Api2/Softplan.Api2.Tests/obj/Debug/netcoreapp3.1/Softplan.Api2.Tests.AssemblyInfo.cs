@@ -11,7 +11,13 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Softplan.Api2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application", "Softplan.Api2.Application.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Softplan.Api2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2", "Softplan.Api2.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Softplan.Api2.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain", "Softplan.Api2.Domain.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Softplan.Api2.Infrastructure.Http, Version=1.0.0.0, Culture=neutral, PublicKeyTok" +
+    "en=null", "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Http", "Softplan.Api2.Infrastructure.Http.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Softplan.Api2.Infrastructure.IoC, Version=1.0.0.0, Culture=neutral, PublicKeyToke" +
+    "n=null", "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.IoC", "Softplan.Api2.Infrastructure.IoC.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Softplan.Api2.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

@@ -1,0 +1,12 @@
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.Http\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Http.deps.json
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.Http\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Http.dll
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.Http\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Http.pdb
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.Http\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.dll
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.Http\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.pdb
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.Http\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Http.csprojAssemblyReference.cache
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.Http\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Http.AssemblyInfoInputs.cache
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.Http\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Http.AssemblyInfo.cs
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.Http\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Http.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.Http\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Http.csproj.CopyComplete
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.Http\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Http.dll
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.Http\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Http.pdb

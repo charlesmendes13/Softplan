@@ -3,11 +3,9 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.DependencyInjection;
 using Moq;
-using System;
-using System.Collections.Generic;
+using Softplan.Api2.Domain.Interfaces.Services;
 using System.Net;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -26,9 +24,19 @@ namespace Softplan.Api2.Tests.Scenarios
         [InlineData("GET", 100, 5)]
         public async void CalculaJuros_Get_ReturnsOkResponse(string metodo, decimal valorInicial, int meses)
         {
-            var client = _factory.CreateClient();
+            var mock = new Mock<IApi1Service>();
+            mock.Setup(x => x.ObterTaxaJurosAsync()).Returns(Task.FromResult(0.01m));
 
-            var request = new HttpRequestMessage(new HttpMethod(metodo), $"/api/calcularJuros?valorInicial={valorInicial}&meses={meses}");
+            var client = _factory.WithWebHostBuilder(hostbuilder =>
+            {
+                hostbuilder.ConfigureTestServices((services) =>
+                {
+                    services.AddSingleton<IApi1Service>(mock.Object);
+                });
+            })
+            .CreateClient();
+
+            var request = new HttpRequestMessage(new HttpMethod(metodo), $"/api/calculaJuros?valorInicial={valorInicial}&meses={meses}");
 
             var response = await client.SendAsync(request);
 
@@ -38,7 +46,7 @@ namespace Softplan.Api2.Tests.Scenarios
 
             var result = await response.Content.ReadAsStringAsync();
 
-            result.Should().Be("105.1");
+            result.Should().Be("105.10100501");
         }
     }
 }

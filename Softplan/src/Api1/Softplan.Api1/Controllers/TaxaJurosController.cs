@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Softplan.Api1.Domain.Interfaces.Services;
 
-namespace Softplan.Services.Api1.Controllers
+namespace Softplan.Api1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

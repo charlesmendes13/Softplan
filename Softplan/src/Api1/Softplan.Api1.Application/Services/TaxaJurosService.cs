@@ -9,6 +9,7 @@ namespace Softplan.Api1.Application.Services
     {
         public TaxaJurosService()
         {
+
         }
 
         public decimal Obter()
