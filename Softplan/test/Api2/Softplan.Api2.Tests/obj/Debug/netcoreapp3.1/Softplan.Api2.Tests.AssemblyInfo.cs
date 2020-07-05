@@ -11,8 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Softplan.Api1.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api1\\Softplan.Api1.Application", "Softplan.Api1.Application.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Softplan.Api1.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api1\\Softplan.Api1.Domain", "Softplan.Api1.Domain.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Softplan.Api2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application", "Softplan.Api2.Application.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Softplan.Api2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2", "Softplan.Api2.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Softplan.Api2.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain", "Softplan.Api2.Domain.csproj", "0")]

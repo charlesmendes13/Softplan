@@ -14,7 +14,7 @@ namespace Softplan.Api2.Infrastructure.Http.Services
         {
             var url = "http://host.docker.internal:8001/api/TaxaJuros";
 
-            var response = await RequestHttp.Request(url);
+            var response = await RequestHttpExtensions.Request(url);
 
             decimal taxa = JsonSerializer.Deserialize<decimal>(response);
             return taxa;

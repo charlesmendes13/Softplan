@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Api1\Softplan.Api1.Domain\Softplan.Api1.Domain.csproj" />
     <ProjectReference Include="..\Softplan.Api2.Domain\Softplan.Api2.Domain.csproj" />
   </ItemGroup>
 

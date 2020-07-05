@@ -5,6 +5,8 @@
 
 ## Executar a aplicação
 ```
+> git clone https://github.com/charlesmendes13/softplan
+> cd softplan
 > docker-compose up
 ```
 

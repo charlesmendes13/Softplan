@@ -1247,7 +1247,6 @@
       },
       "Softplan.Api2.Application/1.0.0": {
         "dependencies": {
-          "Softplan.Api1.Domain": "1.0.0",
           "Softplan.Api2.Domain": "1.0.0"
         },
         "runtime": {

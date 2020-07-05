@@ -391,28 +391,8 @@
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
-      "Softplan.Api1.Application/1.0.0": {
-        "dependencies": {
-          "Softplan.Api1.Domain": "1.0.0"
-        },
-        "runtime": {
-          "Softplan.Api1.Application.dll": {}
-        },
-        "compile": {
-          "Softplan.Api1.Application.dll": {}
-        }
-      },
-      "Softplan.Api1.Domain/1.0.0": {
-        "runtime": {
-          "Softplan.Api1.Domain.dll": {}
-        },
-        "compile": {
-          "Softplan.Api1.Domain.dll": {}
-        }
-      },
       "Softplan.Api2.Application/1.0.0": {
         "dependencies": {
-          "Softplan.Api1.Domain": "1.0.0",
           "Softplan.Api2.Domain": "1.0.0"
         },
         "runtime": {
@@ -444,7 +424,6 @@
       "Softplan.Api2.Infrastructure.IoC/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "3.1.5",
-          "Softplan.Api1.Application": "1.0.0",
           "Softplan.Api2.Application": "1.0.0",
           "Softplan.Api2.Domain": "1.0.0",
           "Softplan.Api2.Infrastructure.Http": "1.0.0"
@@ -2152,16 +2131,6 @@
       "sha512": "sha512-a2Ym9DYrvTZ/Yt8GVfn6M1ZP++Ra3KAfCNe4pTtkNiHpBgWhsYWUT3T07REtFImduBh93GAHuItZpltSOZV13A==",
       "path": "swashbuckle.aspnetcore.swaggerui/5.5.1",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.5.5.1.nupkg.sha512"
-    },
-    "Softplan.Api1.Application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Softplan.Api1.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Softplan.Api2.Application/1.0.0": {
       "type": "project",

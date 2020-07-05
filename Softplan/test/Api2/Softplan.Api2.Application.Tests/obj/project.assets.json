@@ -1876,7 +1876,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Softplan.Api1.Domain": "1.0.0",
           "Softplan.Api2.Domain": "1.0.0"
         },
         "compile": {

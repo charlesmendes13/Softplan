@@ -104,34 +104,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Softplan.Api1.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Softplan.Api1.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Softplan.Api1.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Softplan.Api1.Application.dll": {}
-        }
-      },
-      "Softplan.Api1.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Softplan.Api1.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Softplan.Api1.Domain.dll": {}
-        }
-      },
       "Softplan.Api2.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Softplan.Api1.Domain": "1.0.0",
           "Softplan.Api2.Domain": "1.0.0"
         },
         "compile": {
@@ -169,7 +145,6 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "3.1.5",
-          "Softplan.Api1.Application": "1.0.0",
           "Softplan.Api2.Application": "1.0.0",
           "Softplan.Api2.Domain": "1.0.0",
           "Softplan.Api2.Infrastructure.Http": "1.0.0"
@@ -388,16 +363,6 @@
         "swashbuckle.aspnetcore.swaggerui.5.5.1.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
-    },
-    "Softplan.Api1.Application/1.0.0": {
-      "type": "project",
-      "path": "../../Api1/Softplan.Api1.Application/Softplan.Api1.Application.csproj",
-      "msbuildProject": "../../Api1/Softplan.Api1.Application/Softplan.Api1.Application.csproj"
-    },
-    "Softplan.Api1.Domain/1.0.0": {
-      "type": "project",
-      "path": "../../Api1/Softplan.Api1.Domain/Softplan.Api1.Domain.csproj",
-      "msbuildProject": "../../Api1/Softplan.Api1.Domain/Softplan.Api1.Domain.csproj"
     },
     "Softplan.Api2.Application/1.0.0": {
       "type": "project",

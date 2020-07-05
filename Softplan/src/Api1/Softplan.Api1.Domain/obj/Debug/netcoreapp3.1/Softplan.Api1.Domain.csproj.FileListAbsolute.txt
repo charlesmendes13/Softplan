@@ -6,3 +6,4 @@ D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Domain\obj\Debug\netco
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Domain\obj\Debug\netcoreapp3.1\Softplan.Api1.Domain.csproj.CoreCompileInputs.cache
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Domain\obj\Debug\netcoreapp3.1\Softplan.Api1.Domain.dll
 D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Domain\obj\Debug\netcoreapp3.1\Softplan.Api1.Domain.pdb
+D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1.Domain\obj\Debug\netcoreapp3.1\Softplan.Api1.Domain.csprojAssemblyReference.cache

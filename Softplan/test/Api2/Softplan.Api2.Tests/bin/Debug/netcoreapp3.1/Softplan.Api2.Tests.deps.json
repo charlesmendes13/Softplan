@@ -2063,25 +2063,6 @@
           "Microsoft.NET.Test.Sdk": "16.5.0"
         }
       },
-      "Softplan.Api1.Application/1.0.0": {
-        "dependencies": {
-          "Softplan.Api1.Domain": "1.0.0"
-        },
-        "runtime": {
-          "Softplan.Api1.Application.dll": {}
-        },
-        "compile": {
-          "Softplan.Api1.Application.dll": {}
-        }
-      },
-      "Softplan.Api1.Domain/1.0.0": {
-        "runtime": {
-          "Softplan.Api1.Domain.dll": {}
-        },
-        "compile": {
-          "Softplan.Api1.Domain.dll": {}
-        }
-      },
       "Softplan.Api2/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
@@ -2097,7 +2078,6 @@
       },
       "Softplan.Api2.Application/1.0.0": {
         "dependencies": {
-          "Softplan.Api1.Domain": "1.0.0",
           "Softplan.Api2.Domain": "1.0.0"
         },
         "runtime": {
@@ -2129,7 +2109,6 @@
       "Softplan.Api2.Infrastructure.IoC/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "3.1.5",
-          "Softplan.Api1.Application": "1.0.0",
           "Softplan.Api2.Application": "1.0.0",
           "Softplan.Api2.Domain": "1.0.0",
           "Softplan.Api2.Infrastructure.Http": "1.0.0"
@@ -4638,16 +4617,6 @@
       "sha512": "sha512-3eq5cGXbEJkqW9nwLuXwtxy9B5gMA8i7HW4rN63AhAvy5UvEcQbZnve23wx/oPrkyg/4CbfNhxkBezS0b1oUdQ==",
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
-    },
-    "Softplan.Api1.Application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Softplan.Api1.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Softplan.Api2/1.0.0": {
       "type": "project",

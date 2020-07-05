@@ -8,16 +8,10 @@
     ".NETCoreApp,Version=v3.1": {
       "Softplan.Api2.Application/1.0.0": {
         "dependencies": {
-          "Softplan.Api1.Domain": "1.0.0",
           "Softplan.Api2.Domain": "1.0.0"
         },
         "runtime": {
           "Softplan.Api2.Application.dll": {}
-        }
-      },
-      "Softplan.Api1.Domain/1.0.0": {
-        "runtime": {
-          "Softplan.Api1.Domain.dll": {}
         }
       },
       "Softplan.Api2.Domain/1.0.0": {
@@ -29,11 +23,6 @@
   },
   "libraries": {
     "Softplan.Api2.Application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Softplan.Api1.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

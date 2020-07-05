@@ -23,34 +23,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Softplan.Api1.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Softplan.Api1.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Softplan.Api1.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Softplan.Api1.Application.dll": {}
-        }
-      },
-      "Softplan.Api1.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Softplan.Api1.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Softplan.Api1.Domain.dll": {}
-        }
-      },
       "Softplan.Api2.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Softplan.Api1.Domain": "1.0.0",
           "Softplan.Api2.Domain": "1.0.0"
         },
         "compile": {
@@ -120,16 +96,6 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
-    "Softplan.Api1.Application/1.0.0": {
-      "type": "project",
-      "path": "../../Api1/Softplan.Api1.Application/Softplan.Api1.Application.csproj",
-      "msbuildProject": "../../Api1/Softplan.Api1.Application/Softplan.Api1.Application.csproj"
-    },
-    "Softplan.Api1.Domain/1.0.0": {
-      "type": "project",
-      "path": "../../Api1/Softplan.Api1.Domain/Softplan.Api1.Domain.csproj",
-      "msbuildProject": "../../Api1/Softplan.Api1.Domain/Softplan.Api1.Domain.csproj"
-    },
     "Softplan.Api2.Application/1.0.0": {
       "type": "project",
       "path": "../Softplan.Api2.Application/Softplan.Api2.Application.csproj",
@@ -149,7 +115,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.Extensions.DependencyInjection >= 3.1.5",
-      "Softplan.Api1.Application >= 1.0.0",
       "Softplan.Api2.Application >= 1.0.0",
       "Softplan.Api2.Domain >= 1.0.0",
       "Softplan.Api2.Infrastructure.Http >= 1.0.0"
@@ -181,9 +146,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api1\\Softplan.Api1.Application\\Softplan.Api1.Application.csproj": {
-              "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api1\\Softplan.Api1.Application\\Softplan.Api1.Application.csproj"
-            },
             "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj": {
               "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj"
             },
