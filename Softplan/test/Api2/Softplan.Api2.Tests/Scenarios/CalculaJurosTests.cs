@@ -24,14 +24,14 @@ namespace Softplan.Api2.Tests.Scenarios
         [InlineData("GET", 100, 5)]
         public async void CalculaJuros_Get_ReturnsOkResponse(string metodo, decimal valorInicial, int meses)
         {
-            var mock = new Mock<IApi1Service>();
+            var mock = new Mock<ITaxaJurosService>();
             mock.Setup(x => x.ObterTaxaJurosAsync()).Returns(Task.FromResult(0.01m));
 
             var client = _factory.WithWebHostBuilder(hostbuilder =>
             {
                 hostbuilder.ConfigureTestServices((services) =>
                 {
-                    services.AddSingleton<IApi1Service>(mock.Object);
+                    services.AddSingleton<ITaxaJurosService>(mock.Object);
                 });
             })
             .CreateClient();

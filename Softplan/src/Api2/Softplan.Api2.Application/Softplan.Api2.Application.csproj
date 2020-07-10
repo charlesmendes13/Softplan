@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Softplan.Api2.Domain\Softplan.Api2.Domain.csproj" />
+    <ProjectReference Include="..\Softplan.Api2.Infrastructure.CrossCutting\Softplan.Api2.Infrastructure.CrossCutting.csproj" />
   </ItemGroup>
 
 </Project>

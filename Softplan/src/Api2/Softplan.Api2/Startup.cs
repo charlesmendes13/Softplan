@@ -1,16 +1,10 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Polly;
 using Softplan.Api2.Infrastructure.IoC;
 
 namespace Softplan.Api2
@@ -29,9 +23,18 @@ namespace Softplan.Api2
         {
             // IoC
 
-            InjetorDependencias.Registrar(services);           
-            
+            InjetorDependencias.Registrar(services);
+
             services.AddControllers();
+
+            // Polly
+            services.AddHttpClient("Api1", c =>
+            {
+                c.BaseAddress = new Uri("http://host.docker.internal:8001");
+            })
+            .AddTransientHttpErrorPolicy(p =>
+                p.CircuitBreakerAsync(2, TimeSpan.FromMinutes(2))
+            );
 
             // Swagger
 

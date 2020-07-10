@@ -1,6 +1,6 @@
 ﻿using Softplan.Api2.Domain.Interfaces.Services;
 using Softplan.Api2.Application.Services;
-using Softplan.Api2.Infrastructure.Http.Services;
+using Softplan.Api2.Infrastructure.CrossCutting.Services;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Softplan.Api2.Infrastructure.IoC
@@ -11,7 +11,7 @@ namespace Softplan.Api2.Infrastructure.IoC
         {
             // Services
 
-            container.AddScoped<IApi1Service, Api1Service>();
+            container.AddScoped<ITaxaJurosService, TaxaJurosService>();
             container.AddScoped<ICalculaJurosService, CalculaJurosService>();
             container.AddScoped<IShowMeTheCodeService, ShowMeTheCodeService>();            
         }

@@ -1,7 +1,4 @@
 ﻿using Softplan.Api2.Domain.Interfaces.Services;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Softplan.Api2.Application.Services
 {

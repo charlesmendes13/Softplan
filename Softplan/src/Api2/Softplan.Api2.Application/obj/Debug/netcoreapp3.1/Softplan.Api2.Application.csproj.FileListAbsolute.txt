@@ -10,3 +10,5 @@ D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Application\obj\Debug\
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Application\obj\Debug\netcoreapp3.1\Softplan.Api2.Application.csproj.CopyComplete
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Application\obj\Debug\netcoreapp3.1\Softplan.Api2.Application.dll
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Application\obj\Debug\netcoreapp3.1\Softplan.Api2.Application.pdb
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Application\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.dll
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Application\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.pdb

@@ -29,6 +29,9 @@
             "projectReferences": {
               "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj": {
                 "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj"
+              },
+              "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj": {
+                "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj"
               }
             }
           }
@@ -124,14 +127,14 @@
         }
       }
     },
-    "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Http\\Softplan.Api2.Infrastructure.Http.csproj": {
+    "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Http\\Softplan.Api2.Infrastructure.Http.csproj",
-        "projectName": "Softplan.Api2.Infrastructure.Http",
-        "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Http\\Softplan.Api2.Infrastructure.Http.csproj",
+        "projectUniqueName": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj",
+        "projectName": "Softplan.Api2.Infrastructure.CrossCutting",
+        "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Http\\obj\\",
+        "outputPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -161,6 +164,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -215,8 +228,8 @@
               "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj": {
                 "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj"
               },
-              "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Http\\Softplan.Api2.Infrastructure.Http.csproj": {
-                "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Http\\Softplan.Api2.Infrastructure.Http.csproj"
+              "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj": {
+                "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj"
               }
             }
           }
@@ -298,6 +311,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.9, )"

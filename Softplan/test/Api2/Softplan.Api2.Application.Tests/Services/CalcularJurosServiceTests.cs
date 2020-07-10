@@ -13,7 +13,7 @@ namespace Softplan.Api2.Application.Tests.Services
 {
     public class CalcularJurosServiceTests
     {
-        private readonly Mock<IApi1Service> _api1ServiceMock = new Mock<IApi1Service>();
+        private readonly Mock<ITaxaJurosService> _api1ServiceMock = new Mock<ITaxaJurosService>();
         private readonly CalculaJurosService _calculaJurosService;
 
         public CalcularJurosServiceTests()
