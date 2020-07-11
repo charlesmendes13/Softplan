@@ -1,12 +1,12 @@
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.deps.json
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.dll
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.pdb
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.dll
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.pdb
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.csprojAssemblyReference.cache
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.AssemblyInfoInputs.cache
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.AssemblyInfo.cs
-D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.csproj.CopyComplete
-D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.pdb
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.csproj.CopyComplete
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.dll
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.pdb
