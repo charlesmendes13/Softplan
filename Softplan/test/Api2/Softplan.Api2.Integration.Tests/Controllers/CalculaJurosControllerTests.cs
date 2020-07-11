@@ -13,25 +13,24 @@ namespace Softplan.Api2.Integration.Tests.Controllers
 {
     public class CalculaJurosControllerTests : IClassFixture<WebApplicationFactory<Startup>>
     {
+        private readonly Mock<ITaxaJurosService> _taxaJurosService = new Mock<ITaxaJurosService>();
         private readonly WebApplicationFactory<Startup> _factory;
 
         public CalculaJurosControllerTests(WebApplicationFactory<Startup> factory)
         {
+            _taxaJurosService.Setup(x => x.ObterAsync()).Returns(Task.FromResult(0.01m));
             _factory = factory;
         }
 
         [Theory]
         [InlineData("GET", 100, 5)]
         public async void CalculaJuros_Get_Returns_Ok_Response(string metodo, decimal valorInicial, int meses)
-        {
-            var mock = new Mock<ITaxaJurosService>();
-            mock.Setup(x => x.ObterAsync()).Returns(Task.FromResult(0.01m));
-
+        {           
             var client = _factory.WithWebHostBuilder(hostbuilder =>
             {
                 hostbuilder.ConfigureTestServices((services) =>
                 {
-                    services.AddSingleton<ITaxaJurosService>(mock.Object);
+                    services.AddSingleton<ITaxaJurosService>(_taxaJurosService.Object);
                 });
             })
             .CreateClient();
