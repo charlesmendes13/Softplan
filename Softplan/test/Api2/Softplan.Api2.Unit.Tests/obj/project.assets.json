@@ -6442,11 +6442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj",
+      "projectUniqueName": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj",
       "projectName": "Softplan.Api2.Unit.Tests",
-      "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj",
+      "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj",
       "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\obj\\",
+      "outputPath": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6462,8 +6462,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj": {
-              "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj"
+            "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj": {
+              "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj"
             }
           }
         }
@@ -6512,18 +6512,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

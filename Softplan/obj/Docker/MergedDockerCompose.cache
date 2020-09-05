@@ -1,7 +1,7 @@
 services:
   softplan.api1:
     build:
-      context: D:\Visual Studio\Softplan\Softplan
+      context: D:\Visual Studio\softplan\Softplan
       dockerfile: src/Api1/Softplan.Api1/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -11,7 +11,7 @@ services:
       target: 80
   softplan.api2:
     build:
-      context: D:\Visual Studio\Softplan\Softplan
+      context: D:\Visual Studio\softplan\Softplan
       dockerfile: src/Api2/Softplan.Api2/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development

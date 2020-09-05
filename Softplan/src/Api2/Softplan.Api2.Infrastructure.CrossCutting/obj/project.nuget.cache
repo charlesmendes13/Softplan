@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S6ylcPw1y5IbXF2JdlRIosucH3QE2pDeoOWxnmajI3QVZ505ohNhpTLA9GhxF1J/GkZX/0yzt6kxXC7gAy7umQ==",
+  "dgSpecHash": "zX41ZTo8VLoHuA8j4wORuWVpVfzqzLiKp4lWudHyD25UM5IRE/Auq4MaD33obJfslcQht9v9KPWfO5vg7mdy3A==",
   "success": true,
-  "projectFilePath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj",
+  "projectFilePath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.5\\microsoft.extensions.configuration.3.1.5.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.5\\microsoft.extensions.configuration.abstractions.3.1.5.nupkg.sha512",
@@ -14,8 +14,7 @@
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.options\\3.1.5\\microsoft.extensions.options.3.1.5.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512",
-    "C:\\Users\\Charles\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\Charles\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

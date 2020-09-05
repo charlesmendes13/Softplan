@@ -14,8 +14,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_softplan.api1$
     volumes:
-      - D:\Visual Studio\Softplan\Softplan\src\Api1\Softplan.Api1:/app
-      - D:\Visual Studio\Softplan\Softplan:/src
+      - D:\Visual Studio\softplan\Softplan\src\Api1\Softplan.Api1:/app
+      - D:\Visual Studio\softplan\Softplan:/src
       - C:\Users\Charles\vsdbg\vs2017u5:/remote_debugger:rw
 #$nuget_volume_mapping_softplan.api1$
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
@@ -41,8 +41,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_softplan.api2$
     volumes:
-      - D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2:/app
-      - D:\Visual Studio\Softplan\Softplan:/src
+      - D:\Visual Studio\softplan\Softplan\src\Api2\Softplan.Api2:/app
+      - D:\Visual Studio\softplan\Softplan:/src
       - C:\Users\Charles\vsdbg\vs2017u5:/remote_debugger:rw
 #$nuget_volume_mapping_softplan.api2$
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro

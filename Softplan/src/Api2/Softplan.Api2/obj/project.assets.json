@@ -743,11 +743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj",
+      "projectUniqueName": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj",
       "projectName": "Softplan.Api2",
-      "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj",
+      "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj",
       "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2\\obj\\",
+      "outputPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -763,8 +763,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.IoC\\Softplan.Api2.Infrastructure.IoC.csproj": {
-              "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.IoC\\Softplan.Api2.Infrastructure.IoC.csproj"
+            "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.IoC\\Softplan.Api2.Infrastructure.IoC.csproj": {
+              "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.IoC\\Softplan.Api2.Infrastructure.IoC.csproj"
             }
           }
         }
@@ -801,12 +801,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -815,7 +809,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

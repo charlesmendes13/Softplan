@@ -1,10 +1,12 @@
 using System;
+using System.Net.Http;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Polly;
+using Polly.Extensions.Http;
 using Softplan.Api2.Infrastructure.IoC;
 
 namespace Softplan.Api2
@@ -27,14 +29,14 @@ namespace Softplan.Api2
 
             services.AddControllers();
 
-            // Polly
-            services.AddHttpClient("Api1", c =>
+            // Polly            
+
+            services.AddHttpClient(Configuration["Api1:Instance"], c =>
             {
-                c.BaseAddress = new Uri("http://host.docker.internal:8001");
+                c.BaseAddress = new Uri(Configuration["Api1:Uri"]);
             })
-            .AddTransientHttpErrorPolicy(p =>
-                p.CircuitBreakerAsync(2, TimeSpan.FromMinutes(2))
-            );
+            .SetHandlerLifetime(TimeSpan.FromMinutes(5))
+            .AddPolicyHandler(GetRetryPolicy());
 
             // Swagger
 
@@ -47,6 +49,15 @@ namespace Softplan.Api2
                     Version = "v1"
                 });
             });
+        }
+
+        // Policy Resilience
+        private IAsyncPolicy<HttpResponseMessage> GetRetryPolicy()
+        {
+            return HttpPolicyExtensions
+                .HandleTransientHttpError()
+                .OrResult(msg => msg.StatusCode == System.Net.HttpStatusCode.NotFound)
+                .WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(Math.Pow(10, retryAttempt)));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

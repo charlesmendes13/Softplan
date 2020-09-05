@@ -7716,11 +7716,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\Softplan.Api2.Integration.Tests.csproj",
+      "projectUniqueName": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\Softplan.Api2.Integration.Tests.csproj",
       "projectName": "Softplan.Api2.Integration.Tests",
-      "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\Softplan.Api2.Integration.Tests.csproj",
+      "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\Softplan.Api2.Integration.Tests.csproj",
       "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\obj\\",
+      "outputPath": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7736,11 +7736,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj": {
-              "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj"
+            "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj": {
+              "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj"
             },
-            "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj": {
-              "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj"
+            "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj": {
+              "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj"
             }
           }
         }
@@ -7801,12 +7801,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -7815,7 +7809,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

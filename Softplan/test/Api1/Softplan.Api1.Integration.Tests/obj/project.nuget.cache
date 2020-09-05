@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fcZZNqSkP5M2Sl7qJeXKTgNvtG3C2JFPdPZIvAA4k6hUWW8VQao9idSNI/0fvEOeVyUBKPDvOBnokOPROBoNQQ==",
+  "dgSpecHash": "9vOVewN4o6sCz72OdMXCv0V0d54uPS7gLIWgMVmgfL4AnbH41EMZ7al18BGKCELANHVd+FqkIHSvW6eRQPnlWQ==",
   "success": true,
-  "projectFilePath": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api1\\Softplan.Api1.Integration.Tests\\Softplan.Api1.Integration.Tests.csproj",
+  "projectFilePath": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api1\\Softplan.Api1.Integration.Tests\\Softplan.Api1.Integration.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Charles\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
@@ -97,8 +97,7 @@
     "C:\\Users\\Charles\\.nuget\\packages\\xunit.core\\2.4.0\\xunit.core.2.4.0.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\xunit.extensibility.core\\2.4.0\\xunit.extensibility.core.2.4.0.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\xunit.extensibility.execution\\2.4.0\\xunit.extensibility.execution.2.4.0.nupkg.sha512",
-    "C:\\Users\\Charles\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512",
-    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\Charles\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512"
   ],
   "logs": []
 }
