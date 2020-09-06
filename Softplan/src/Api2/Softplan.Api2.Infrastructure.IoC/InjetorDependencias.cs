@@ -1,6 +1,6 @@
 ﻿using Softplan.Api2.Domain.Interfaces.Services;
 using Softplan.Api2.Application.Services;
-using Softplan.Api2.Infrastructure.CrossCutting.Services;
+using Softplan.Api2.Infrastructure.Services;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Softplan.Api2.Infrastructure.IoC

@@ -19,7 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Api2\Softplan.Api2.Infrastructure.CrossCutting\Softplan.Api2.Infrastructure.CrossCutting.csproj" />
     <ProjectReference Include="..\..\..\src\Api2\Softplan.Api2\Softplan.Api2.csproj" />
   </ItemGroup>
 

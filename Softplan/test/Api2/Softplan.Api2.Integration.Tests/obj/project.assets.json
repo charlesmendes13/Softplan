@@ -2400,8 +2400,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Softplan.Api2.Domain": "1.0.0",
-          "Softplan.Api2.Infrastructure.CrossCutting": "1.0.0"
+          "Softplan.Api2.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Softplan.Api2.Application.dll": {}
@@ -2420,7 +2419,23 @@
           "bin/placeholder/Softplan.Api2.Domain.dll": {}
         }
       },
-      "Softplan.Api2.Infrastructure.CrossCutting/1.0.0": {
+      "Softplan.Api2.Infrastructure.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "3.1.5",
+          "Softplan.Api2.Application": "1.0.0",
+          "Softplan.Api2.Domain": "1.0.0",
+          "Softplan.Api2.Infrastructure.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Softplan.Api2.Infrastructure.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Softplan.Api2.Infrastructure.IoC.dll": {}
+        }
+      },
+      "Softplan.Api2.Infrastructure.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -2429,26 +2444,10 @@
           "Softplan.Api2.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Softplan.Api2.Infrastructure.CrossCutting.dll": {}
+          "bin/placeholder/Softplan.Api2.Infrastructure.Services.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Softplan.Api2.Infrastructure.CrossCutting.dll": {}
-        }
-      },
-      "Softplan.Api2.Infrastructure.IoC/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "3.1.5",
-          "Softplan.Api2.Application": "1.0.0",
-          "Softplan.Api2.Domain": "1.0.0",
-          "Softplan.Api2.Infrastructure.CrossCutting": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Softplan.Api2.Infrastructure.IoC.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Softplan.Api2.Infrastructure.IoC.dll": {}
+          "bin/placeholder/Softplan.Api2.Infrastructure.Services.dll": {}
         }
       }
     }
@@ -7684,15 +7683,15 @@
       "path": "../../../src/Api2/Softplan.Api2.Domain/Softplan.Api2.Domain.csproj",
       "msbuildProject": "../../../src/Api2/Softplan.Api2.Domain/Softplan.Api2.Domain.csproj"
     },
-    "Softplan.Api2.Infrastructure.CrossCutting/1.0.0": {
-      "type": "project",
-      "path": "../../../src/Api2/Softplan.Api2.Infrastructure.CrossCutting/Softplan.Api2.Infrastructure.CrossCutting.csproj",
-      "msbuildProject": "../../../src/Api2/Softplan.Api2.Infrastructure.CrossCutting/Softplan.Api2.Infrastructure.CrossCutting.csproj"
-    },
     "Softplan.Api2.Infrastructure.IoC/1.0.0": {
       "type": "project",
       "path": "../../../src/Api2/Softplan.Api2.Infrastructure.IoC/Softplan.Api2.Infrastructure.IoC.csproj",
       "msbuildProject": "../../../src/Api2/Softplan.Api2.Infrastructure.IoC/Softplan.Api2.Infrastructure.IoC.csproj"
+    },
+    "Softplan.Api2.Infrastructure.Services/1.0.0": {
+      "type": "project",
+      "path": "../../../src/Api2/Softplan.Api2.Infrastructure.Services/Softplan.Api2.Infrastructure.Services.csproj",
+      "msbuildProject": "../../../src/Api2/Softplan.Api2.Infrastructure.Services/Softplan.Api2.Infrastructure.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7704,7 +7703,6 @@
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "Moq >= 4.14.5",
       "Softplan.Api2 >= 1.0.0",
-      "Softplan.Api2.Infrastructure.CrossCutting >= 1.0.0",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
@@ -7736,9 +7734,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj": {
-              "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.CrossCutting\\Softplan.Api2.Infrastructure.CrossCutting.csproj"
-            },
             "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj": {
               "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj"
             }

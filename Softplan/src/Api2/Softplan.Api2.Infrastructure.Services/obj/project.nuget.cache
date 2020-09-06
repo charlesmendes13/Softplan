@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "9tSRBGZe6D7TdEigarIPqJ3JsW5tjP36v/KDObFIzpTYu0/pk5lnpOTPxAURjjL8MR8GJ+eRc4lgYgQgsT5ykA==",
+  "success": true,
+  "projectFilePath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Services\\Softplan.Api2.Infrastructure.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.5\\microsoft.extensions.configuration.3.1.5.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.5\\microsoft.extensions.configuration.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.5\\microsoft.extensions.configuration.binder.3.1.5.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.5\\microsoft.extensions.dependencyinjection.3.1.5.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.http\\3.1.5\\microsoft.extensions.http.3.1.5.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.logging\\3.1.5\\microsoft.extensions.logging.3.1.5.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.options\\3.1.5\\microsoft.extensions.options.3.1.5.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

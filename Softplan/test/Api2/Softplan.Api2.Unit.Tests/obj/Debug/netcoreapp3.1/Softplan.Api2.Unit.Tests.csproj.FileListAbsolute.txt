@@ -9,16 +9,6 @@ D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\FluentAssertions.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -104,10 +94,8 @@ D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Application.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.dll
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Application.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.pdb
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\obj\Debug\netcoreapp3.1\Softplan.Api2.Unit.Tests.csprojAssemblyReference.cache
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\obj\Debug\netcoreapp3.1\Softplan.Api2.Unit.Tests.AssemblyInfoInputs.cache
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Unit.Tests\obj\Debug\netcoreapp3.1\Softplan.Api2.Unit.Tests.AssemblyInfo.cs

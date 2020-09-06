@@ -11,7 +11,7 @@
           "Microsoft.Extensions.DependencyInjection": "3.1.5",
           "Softplan.Api2.Application": "1.0.0",
           "Softplan.Api2.Domain": "1.0.0",
-          "Softplan.Api2.Infrastructure.CrossCutting": "1.0.0"
+          "Softplan.Api2.Infrastructure.Services": "1.0.0"
         },
         "runtime": {
           "Softplan.Api2.Infrastructure.IoC.dll": {}
@@ -134,8 +134,7 @@
       },
       "Softplan.Api2.Application/1.0.0": {
         "dependencies": {
-          "Softplan.Api2.Domain": "1.0.0",
-          "Softplan.Api2.Infrastructure.CrossCutting": "1.0.0"
+          "Softplan.Api2.Domain": "1.0.0"
         },
         "runtime": {
           "Softplan.Api2.Application.dll": {}
@@ -146,14 +145,14 @@
           "Softplan.Api2.Domain.dll": {}
         }
       },
-      "Softplan.Api2.Infrastructure.CrossCutting/1.0.0": {
+      "Softplan.Api2.Infrastructure.Services/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Http": "3.1.5",
           "Newtonsoft.Json": "12.0.3",
           "Softplan.Api2.Domain": "1.0.0"
         },
         "runtime": {
-          "Softplan.Api2.Infrastructure.CrossCutting.dll": {}
+          "Softplan.Api2.Infrastructure.Services.dll": {}
         }
       }
     }
@@ -251,7 +250,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Softplan.Api2.Infrastructure.CrossCutting/1.0.0": {
+    "Softplan.Api2.Infrastructure.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

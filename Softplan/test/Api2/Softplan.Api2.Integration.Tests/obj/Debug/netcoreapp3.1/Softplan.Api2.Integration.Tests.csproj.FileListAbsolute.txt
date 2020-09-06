@@ -383,9 +383,7 @@ D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Application.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.dll
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.dll
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.IoC.dll
-D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Application.pdb
 D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.pdb
@@ -406,3 +404,5 @@ D:\Visual Studio\softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin
 D:\Visual Studio\softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
 D:\Visual Studio\softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
 D:\Visual Studio\softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+D:\Visual Studio\softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Services.dll
+D:\Visual Studio\softplan\Softplan\test\Api2\Softplan.Api2.Integration.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Services.pdb

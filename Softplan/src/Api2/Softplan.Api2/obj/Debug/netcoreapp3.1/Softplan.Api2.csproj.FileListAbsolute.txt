@@ -19,7 +19,6 @@ D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Polly.dll
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
@@ -27,12 +26,10 @@ D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Softplan.Api2.Application.dll
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.dll
-D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.dll
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.IoC.dll
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.IoC.pdb
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Softplan.Api2.Application.pdb
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.pdb
-D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.CrossCutting.pdb
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\obj\Debug\netcoreapp3.1\Softplan.Api2.csprojAssemblyReference.cache
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\obj\Debug\netcoreapp3.1\Softplan.Api2.AssemblyInfoInputs.cache
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\obj\Debug\netcoreapp3.1\Softplan.Api2.AssemblyInfo.cs
@@ -46,3 +43,6 @@ D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\obj\Debug\netcoreapp3.
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\obj\Debug\netcoreapp3.1\Softplan.Api2.dll
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\obj\Debug\netcoreapp3.1\Softplan.Api2.pdb
 D:\Visual Studio\Softplan\Softplan\src\Api2\Softplan.Api2\obj\Debug\netcoreapp3.1\Softplan.Api2.genruntimeconfig.cache
+D:\Visual Studio\softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Visual Studio\softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Services.dll
+D:\Visual Studio\softplan\Softplan\src\Api2\Softplan.Api2\bin\Debug\netcoreapp3.1\Softplan.Api2.Infrastructure.Services.pdb
