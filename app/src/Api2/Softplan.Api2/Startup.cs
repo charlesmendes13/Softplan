@@ -33,7 +33,11 @@ namespace Softplan.Api2
             
             services.AddHttpClient(Configuration["Api1:Instance"], c =>
             {
-                c.BaseAddress = new Uri(Configuration["Api1:Uri"]);
+                #if Docker
+                    c.BaseAddress = new Uri(Configuration["Api1:UriDocker"]);
+                #else
+                    c.BaseAddress = new Uri(Configuration["Api1:Uri"]);
+                #endif
             })
             .SetHandlerLifetime(TimeSpan.FromMinutes(5))
             .AddPolicyHandler(GetRetryPolicy());

@@ -2,7 +2,7 @@
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
 WORKDIR /app
-ENV ASPNETCORE_URLS=http://+:5002
+ENV ASPNETCORE_URLS=http://0.0.0.0:5002
 EXPOSE 5002
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
