@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Softplan.Api2.Domain.Interfaces.Services;
+using Softplan.Api2.Application;
 
 namespace Softplan.Api2.Controllers
 {
@@ -8,17 +8,17 @@ namespace Softplan.Api2.Controllers
     [ApiController]
     public class CalculaJurosController : ControllerBase
     {
-        private readonly ICalculaJurosService _calculaJurosService;
+        private readonly ICalculaJurosAppService _calculaJurosAppService;
 
-        public CalculaJurosController(ICalculaJurosService calculaJurosService)
+        public CalculaJurosController(ICalculaJurosAppService calculaJurosAppService)
         {
-            _calculaJurosService = calculaJurosService;
+            _calculaJurosAppService = calculaJurosAppService;
         }
 
         [HttpGet]
         public async Task<decimal> CalcularJurosAsync([FromQuery] decimal valorInicial, [FromQuery] int meses)
         {
-            return await _calculaJurosService.CalcularAsync(valorInicial, meses);
+            return await _calculaJurosAppService.CalcularAsync(valorInicial, meses);
         }
     }
 }

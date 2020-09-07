@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Softplan.Api2.Domain.Interfaces.Services
+namespace Softplan.Api2.Domain
 {
     public interface ITaxaJurosService
     {

@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Api2\Softplan.Api2.Application\Softplan.Api2.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\Api2\Softplan.Api2.Domain\Softplan.Api2.Domain.csproj" />
   </ItemGroup>
 
 </Project>

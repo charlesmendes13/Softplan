@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l7lntwCKXPH4zW0jyJewGqHpxjUk21tXZq2W82My1yZuvH5/mi5Bu0qWtZ888sgiFGI0KttG+lcFo88jbh+Jdw==",
+  "dgSpecHash": "K4d5dKu/3oWJ3Rw/FmxmY7+7scANZWMzMbzGsSo7NzRw7WB1o7dIbac/RQCBYYd1JgJdY4Xus1tJ7TbPIXQFuQ==",
   "success": true,
-  "projectFilePath": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj",
+  "projectFilePath": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Charles\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",

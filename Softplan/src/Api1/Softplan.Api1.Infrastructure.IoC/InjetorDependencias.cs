@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Softplan.Api1.Application.Services;
-using Softplan.Api1.Domain.Interfaces.Services;
+using Softplan.Api1.Application;
+using Softplan.Api1.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,9 +11,13 @@ namespace Softplan.Api1.Infrastructure.IoC
     {
         public static void Registrar(IServiceCollection container)
         {
-            // Services
+            // Domain
 
-            container.AddScoped<ITaxaJurosService, TaxaJurosService>();           
+            container.AddScoped<ITaxaJurosService, TaxaJurosService>();
+
+            // Application
+
+            container.AddScoped<ITaxaJurosAppService, TaxaJurosAppService>();
         }
     }
 }

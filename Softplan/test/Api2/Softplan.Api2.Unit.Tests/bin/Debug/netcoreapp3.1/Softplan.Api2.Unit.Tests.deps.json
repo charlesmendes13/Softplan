@@ -11,7 +11,7 @@
           "FluentAssertions": "5.10.3",
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "Moq": "4.14.5",
-          "Softplan.Api2.Application": "1.0.0",
+          "Softplan.Api2.Domain": "1.0.0",
           "coverlet.collector": "1.2.0",
           "xunit": "2.4.0",
           "xunit.runner.visualstudio": "2.4.0"
@@ -1231,14 +1231,6 @@
           "Microsoft.NET.Test.Sdk": "16.5.0"
         }
       },
-      "Softplan.Api2.Application/1.0.0": {
-        "dependencies": {
-          "Softplan.Api2.Domain": "1.0.0"
-        },
-        "runtime": {
-          "Softplan.Api2.Application.dll": {}
-        }
-      },
       "Softplan.Api2.Domain/1.0.0": {
         "runtime": {
           "Softplan.Api2.Domain.dll": {}
@@ -1972,11 +1964,6 @@
       "sha512": "sha512-3eq5cGXbEJkqW9nwLuXwtxy9B5gMA8i7HW4rN63AhAvy5UvEcQbZnve23wx/oPrkyg/4CbfNhxkBezS0b1oUdQ==",
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
-    },
-    "Softplan.Api2.Application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Softplan.Api2.Domain/1.0.0": {
       "type": "project",

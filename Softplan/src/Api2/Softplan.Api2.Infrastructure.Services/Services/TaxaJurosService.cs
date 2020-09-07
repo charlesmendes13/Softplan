@@ -1,10 +1,10 @@
-﻿using Softplan.Api2.Domain.Interfaces.Services;
+﻿using Softplan.Api2.Domain;
 using System.Net.Http;
 using Newtonsoft.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 
-namespace Softplan.Api2.Infrastructure.Services
+namespace Softplan.Api2.Infrastructure
 {
     public class TaxaJurosService : ITaxaJurosService
     {

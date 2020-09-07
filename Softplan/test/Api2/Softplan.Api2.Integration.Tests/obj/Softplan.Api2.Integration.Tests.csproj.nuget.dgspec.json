@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\Softplan.Api2.Integration.Tests.csproj": {}
+    "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\Softplan.Api2.Integration.Tests.csproj": {}
   },
   "projects": {
     "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj": {
@@ -112,221 +112,14 @@
         }
       }
     },
-    "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.IoC\\Softplan.Api2.Infrastructure.IoC.csproj": {
+    "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\Softplan.Api2.Integration.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.IoC\\Softplan.Api2.Infrastructure.IoC.csproj",
-        "projectName": "Softplan.Api2.Infrastructure.IoC",
-        "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.IoC\\Softplan.Api2.Infrastructure.IoC.csproj",
-        "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.IoC\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj": {
-                "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj"
-              },
-              "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj": {
-                "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj"
-              },
-              "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Services\\Softplan.Api2.Infrastructure.Services.csproj": {
-                "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Services\\Softplan.Api2.Infrastructure.Services.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Services\\Softplan.Api2.Infrastructure.Services.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Services\\Softplan.Api2.Infrastructure.Services.csproj",
-        "projectName": "Softplan.Api2.Infrastructure.Services",
-        "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Services\\Softplan.Api2.Infrastructure.Services.csproj",
-        "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.Services\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj": {
-                "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.Extensions.Http": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj",
-        "projectName": "Softplan.Api2",
-        "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj",
-        "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.IoC\\Softplan.Api2.Infrastructure.IoC.csproj": {
-                "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Infrastructure.IoC\\Softplan.Api2.Infrastructure.IoC.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.Extensions.Http.Polly": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.10.9, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.5.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\Softplan.Api2.Integration.Tests.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\Softplan.Api2.Integration.Tests.csproj",
+        "projectUniqueName": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\Softplan.Api2.Integration.Tests.csproj",
         "projectName": "Softplan.Api2.Integration.Tests",
-        "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\Softplan.Api2.Integration.Tests.csproj",
+        "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\Softplan.Api2.Integration.Tests.csproj",
         "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\obj\\",
+        "outputPath": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Integration.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -342,8 +135,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj": {
-                "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj"
+              "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj": {
+                "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj"
               }
             }
           }
@@ -360,18 +153,6 @@
             "FluentAssertions": {
               "target": "Package",
               "version": "[5.10.3, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Testing": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.AspNetCore.TestHost": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.Extensions.Http": {
-              "target": "Package",
-              "version": "[3.1.5, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -405,9 +186,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

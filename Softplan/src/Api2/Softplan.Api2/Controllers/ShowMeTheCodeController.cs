@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Softplan.Api2.Domain.Interfaces.Services;
+using Softplan.Api2.Application;
 
 namespace Softplan.Api2.Controllers
 {
@@ -7,17 +7,17 @@ namespace Softplan.Api2.Controllers
     [ApiController]
     public class ShowMeTheCodeController : ControllerBase
     {
-        private readonly IShowMeTheCodeService _showMeTheCodeService;
+        private readonly IShowMeTheCodeAppService _showMeTheCodeAppService;
 
-        public ShowMeTheCodeController(IShowMeTheCodeService showMeTheCodeService)
+        public ShowMeTheCodeController(IShowMeTheCodeAppService showMeTheCodeAppService)
         {
-            _showMeTheCodeService = showMeTheCodeService;
+            _showMeTheCodeAppService = showMeTheCodeAppService;
         }
 
         [HttpGet]
         public ActionResult<string> ObterUrlGit()
         {
-            return _showMeTheCodeService.Obter();
+            return _showMeTheCodeAppService.Obter();
         }
     }
 }

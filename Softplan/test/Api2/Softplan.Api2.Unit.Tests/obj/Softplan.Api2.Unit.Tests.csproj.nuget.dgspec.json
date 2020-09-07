@@ -1,65 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj": {}
+    "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj",
-        "projectName": "Softplan.Api2.Application",
-        "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj",
-        "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj": {
-                "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -112,14 +56,14 @@
         }
       }
     },
-    "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj": {
+    "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj",
+        "projectUniqueName": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj",
         "projectName": "Softplan.Api2.Unit.Tests",
-        "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj",
+        "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj",
         "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\obj\\",
+        "outputPath": "D:\\Visual Studio\\Softplan\\Softplan\\test\\Api2\\Softplan.Api2.Unit.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -135,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj": {
-                "projectPath": "D:\\Visual Studio\\softplan\\Softplan\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj"
+              "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj": {
+                "projectPath": "D:\\Visual Studio\\Softplan\\Softplan\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj"
               }
             }
           }

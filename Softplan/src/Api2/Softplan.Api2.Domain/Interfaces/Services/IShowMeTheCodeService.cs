@@ -1,4 +1,4 @@
-﻿namespace Softplan.Api2.Domain.Interfaces.Services
+﻿namespace Softplan.Api2.Domain
 {
     public interface IShowMeTheCodeService
     {

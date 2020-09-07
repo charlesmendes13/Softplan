@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Softplan.Api1.Domain.Interfaces.Services;
+using Softplan.Api1.Application;
 
 namespace Softplan.Api1.Controllers
 {
@@ -11,17 +11,17 @@ namespace Softplan.Api1.Controllers
     [ApiController]
     public class TaxaJurosController : ControllerBase
     {
-        private readonly ITaxaJurosService _taxaJurosService;
+        private readonly ITaxaJurosAppService _taxaJurosAppService;
 
-        public TaxaJurosController(ITaxaJurosService taxaJurosService)
+        public TaxaJurosController(ITaxaJurosAppService taxaJurosAppService)
         {
-            _taxaJurosService = taxaJurosService;
+            _taxaJurosAppService = taxaJurosAppService;
         }
         
         [HttpGet]
         public ActionResult<decimal> ObterTaxaJuros()
         {
-            return _taxaJurosService.Obter();
+            return _taxaJurosAppService.Obter();
         }
     }
 }
