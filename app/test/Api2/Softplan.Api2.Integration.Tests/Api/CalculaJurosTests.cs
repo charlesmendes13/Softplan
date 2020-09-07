@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.DependencyInjection;
 using Softplan.Api2.Domain;
 
-namespace Softplan.Api2.Integration.Tests.Controller
+namespace Softplan.Api2.Integration.Tests
 {
     public class CalculaJurosTests : IClassFixture<WebApplicationFactory<Startup>>
     {

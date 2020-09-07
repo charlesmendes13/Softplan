@@ -1,31 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using FluentAssertions;
-using NUnit.Framework;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using System;
+using Xunit;
 
-namespace Softplan.Api1.e2e.Tests.Api
+namespace Softplan.Api1.e2e.Tests
 {
-    public class TaxaJurosTests
+    public class TaxaJurosTests : IDisposable
     {
         IWebDriver driver;
 
-        [SetUp]
-        public void StartBrowser()
+        public TaxaJurosTests()
         {
             driver = new ChromeDriver();
-        }
+        }        
 
-        [Test]
+        [Fact]
         public void Obter_Taxa_Juros()
         {
-            driver.Navigate().GoToUrl("http://localhost:8001/api/TaxaJuros");            
+            driver.Navigate().GoToUrl("https://localhost:5001/api/TaxaJuros");            
         }
 
-        [TearDown]
-        public void CloseBrowser()
+        public void Dispose()
         {
             driver.Close();
         }

@@ -2,7 +2,7 @@
 using FluentAssertions;
 using Softplan.Api1.Domain;
 
-namespace Softplan.Api1.Unit.Tests.Domain
+namespace Softplan.Api1.Unit.Tests
 {
     public class TaxaJurosServiceTests
     {

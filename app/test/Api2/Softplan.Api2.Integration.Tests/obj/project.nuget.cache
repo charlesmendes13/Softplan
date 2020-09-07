@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5ptk7b+fNze522SrfqUwy0waHfD3y6gfrF5uoiWy7+aeBlvvZIs5IDZEfvIz6pDZ1b5rwTA4R379ZU7iw7qH6w==",
+  "dgSpecHash": "EWpeolDDG49O12wDMrkr6gQ/K7PpwuQOpAHEbfVsCR9Ws4qj1gghzlLxbF/XuVdgbEk0Z2VaM5RPtK6TzdatUw==",
   "success": true,
   "projectFilePath": "D:\\Visual Studio\\Softplan\\app\\test\\Api2\\Softplan.Api2.Integration.Tests\\Softplan.Api2.Integration.Tests.csproj",
   "expectedPackageFiles": [

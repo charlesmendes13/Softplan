@@ -7661,7 +7661,6 @@
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "Moq >= 4.14.5",
       "Softplan.Api2 >= 1.0.0",
-      "Softplan.Api2.Application >= 1.0.0",
       "System.Net.Http >= 4.3.4",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
@@ -7694,9 +7693,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj": {
-              "projectPath": "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj"
-            },
             "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj": {
               "projectPath": "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj"
             }

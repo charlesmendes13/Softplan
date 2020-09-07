@@ -46,14 +46,6 @@
               "target": "Package",
               "version": "[16.5.0, )"
             },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.12.0, )"
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[3.17.0, )"
-            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[3.141.0, )"

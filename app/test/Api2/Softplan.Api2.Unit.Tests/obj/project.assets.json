@@ -1849,6 +1849,19 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
+      "Softplan.Api2.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Softplan.Api2.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Softplan.Api2.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Softplan.Api2.Application.dll": {}
+        }
+      },
       "Softplan.Api2.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -6295,6 +6308,11 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+    "Softplan.Api2.Application/1.0.0": {
+      "type": "project",
+      "path": "../../../src/Api2/Softplan.Api2.Application/Softplan.Api2.Application.csproj",
+      "msbuildProject": "../../../src/Api2/Softplan.Api2.Application/Softplan.Api2.Application.csproj"
+    },
     "Softplan.Api2.Domain/1.0.0": {
       "type": "project",
       "path": "../../../src/Api2/Softplan.Api2.Domain/Softplan.Api2.Domain.csproj",
@@ -6306,7 +6324,7 @@
       "FluentAssertions >= 5.10.3",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "Moq >= 4.14.5",
-      "Softplan.Api2.Domain >= 1.0.0",
+      "Softplan.Api2.Application >= 1.0.0",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
@@ -6338,8 +6356,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj": {
-              "projectPath": "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj"
+            "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj": {
+              "projectPath": "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj"
             }
           }
         }

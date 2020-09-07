@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using Softplan.Api2.Domain;
 
-namespace Softplan.Api2.Unit.Tests.Domain
+namespace Softplan.Api2.Unit.Tests
 {
     public class CalcularJurosServiceTests
     {

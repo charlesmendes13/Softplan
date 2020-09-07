@@ -29,8 +29,8 @@ namespace Softplan.Api2
 
             services.AddControllers();
 
-            // Polly            
-
+            // Polly
+            
             services.AddHttpClient(Configuration["Api1:Instance"], c =>
             {
                 c.BaseAddress = new Uri(Configuration["Api1:Uri"]);

@@ -110,11 +110,6 @@ D:\Visual Studio\Softplan\Softplan\test\Api2\Softplan.Api2.e2e.Tests\obj\Debug\n
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
-D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
-D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
-D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\nunit.engine.dll
-D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
-D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.e2e.Tests.deps.json
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.e2e.Tests.runtimeconfig.json
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.e2e.Tests.runtimeconfig.dev.json
@@ -122,7 +117,6 @@ D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcor
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\Softplan.Api2.e2e.Tests.pdb
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\FluentAssertions.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
-D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -133,11 +127,9 @@ D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcor
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\testhost.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\nunit.framework.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\WebDriver.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\xunit.assert.dll
 D:\Visual Studio\Softplan\app\test\Api2\Softplan.Api2.e2e.Tests\bin\Debug\netcoreapp3.1\xunit.core.dll

@@ -1,32 +1,26 @@
-﻿using FluentAssertions;
-using NUnit.Framework;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Text;
+using Xunit;
 
-namespace Softplan.Api2.e2e.Tests.Api
+namespace Softplan.Api2.e2e.Tests
 {
-    public class CalculaJurosTests
+    public class CalculaJurosTests : IDisposable
     {
         IWebDriver driver;
 
-        [SetUp]
-        public void StartBrowser()
+        public CalculaJurosTests()
         {
             driver = new ChromeDriver();
         }
 
-        [Test]
+        [Fact]
         public void Calcula_Juros()
         {
-            driver.Navigate().GoToUrl("http://localhost:8002/api/CalculaJuros");
+            driver.Navigate().GoToUrl("https://localhost:5001/api/CalculaJuros");
         }
 
-        [TearDown]
-        public void CloseBrowser()
+        public void Dispose()
         {
             driver.Close();
         }

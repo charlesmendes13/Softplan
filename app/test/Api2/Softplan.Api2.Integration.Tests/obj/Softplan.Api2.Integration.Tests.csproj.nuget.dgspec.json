@@ -342,9 +342,6 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj": {
-                "projectPath": "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2.Application\\Softplan.Api2.Application.csproj"
-              },
               "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj": {
                 "projectPath": "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2\\Softplan.Api2.csproj"
               }

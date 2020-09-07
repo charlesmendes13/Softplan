@@ -1,30 +1,26 @@
-﻿using NUnit.Framework;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using Xunit;
 
-namespace Softplan.Api2.e2e.Tests.Api
+namespace Softplan.Api2.e2e.Tests
 {
-    public class ShowMeTheCodeTests
+    public class ShowMeTheCodeTests : IDisposable
     {
         IWebDriver driver;
 
-        [SetUp]
-        public void StartBrowser()
+        public ShowMeTheCodeTests()
         {
             driver = new ChromeDriver();
-        }
+        }        
 
-        [Test]
+        [Fact]
         public void Obter_Url_Git()
         {
-            driver.Navigate().GoToUrl("http://localhost:8002/api/ShowMeTheCode");
+            driver.Navigate().GoToUrl("https://localhost:5001/api/ShowMeTheCode");
         }
 
-        [TearDown]
-        public void CloseBrowser()
+        public void Dispose()
         {
             driver.Close();
         }

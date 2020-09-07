@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.Http;
 using Microsoft.AspNetCore.Mvc.Testing;
 
-namespace Softplan.Api2.Integration.Tests.Controller
+namespace Softplan.Api2.Integration.Tests
 {
     public class ShowMeTheCodeTests : IClassFixture<WebApplicationFactory<Startup>>
     {

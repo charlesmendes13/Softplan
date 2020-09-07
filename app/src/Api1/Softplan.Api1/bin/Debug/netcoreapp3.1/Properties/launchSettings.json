@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:8001"      
+      "applicationUrl": "http://localhost:5001"      
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
@@ -23,7 +23,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:8001"
+      "applicationUrl": "http://localhost:5001"
     },
     "Docker": {
       "commandName": "Docker",
@@ -31,7 +31,11 @@
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
       "publishAllPorts": true,
       "useSSL": false,
-      "httpPort": 8001
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://+:5001",
+        "ASPNETCORE_HTTPS_PORT": "5001"
+      },
+      "httpPort": 5001
     }
   }
 }
