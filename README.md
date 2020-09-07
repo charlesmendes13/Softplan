@@ -1,16 +1,16 @@
 # Seleção de pessoa Desenvolvedora .Net Core
 
-## Executar download do Docker
+## Executar download e instalação do Docker
 * https://docs.docker.com
 
 ## Executar a aplicação
 ```
 > git clone https://github.com/charlesmendes13/softplan
-> cd softplan
+> cd Softplan/app
 > docker-compose up
 ```
 
-## Path
+## Urls
 * Api1: http://localhost:8001/swagger
 * Api2: http://localhost:8002/swagger
 

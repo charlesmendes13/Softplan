@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "W6ZW+ntKxufJMnGpsAlbB0dRnfB+WygZV0RyM0ot9ry2bJx3ReZwo9eix9wk1UblaSMDo9junFhxlr7+49HyFQ==",
+  "success": true,
+  "projectFilePath": "D:\\Visual Studio\\Softplan\\app\\src\\Api1\\Softplan.Api1.Infrastructure.IoC\\Softplan.Api1.Infrastructure.IoC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.5\\microsoft.extensions.dependencyinjection.3.1.5.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
