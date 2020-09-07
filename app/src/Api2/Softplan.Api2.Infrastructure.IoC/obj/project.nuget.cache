@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1FbVPcS/JMDpcWBXo42cwh+tkTiPl+vuWHNAPd6bUac2p0+GarZwM0BOQGY8XraBJGhQ6L7S2vilzdHr29xnzA==",
+  "dgSpecHash": "8reV7B8B14cZ0HQUcEXLEpYv7d9ydGxFOgLc3FBTZloHPAt51CjpnzVaOgXwsjrSDdtybW1ufPtWqBMRTNVXhg==",
   "success": true,
   "projectFilePath": "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2.Infrastructure.IoC\\Softplan.Api2.Infrastructure.IoC.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,8 @@
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.options\\3.1.5\\microsoft.extensions.options.3.1.5.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512",
-    "C:\\Users\\Charles\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Charles\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }

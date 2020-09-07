@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "19mm8whT4Mb5LHKejjYQjjRC5zZhhrJC37C01ThLGtCzovaqogs8WGqWtbdyHB45bhPWS8Oa/YGjGnZUbWheEA==",
+  "dgSpecHash": "AbwP02LBitwIs0iDygW5pwlqsBYOgr9G3hkO8AMSMpVWQp5ApAiaatVE+2QasGJhGQhAlciW48juMzacZQnrSg==",
   "success": true,
   "projectFilePath": "D:\\Visual Studio\\Softplan\\app\\test\\Api2\\Softplan.Api2.Unit.Tests\\Softplan.Api2.Unit.Tests.csproj",
   "expectedPackageFiles": [
@@ -106,7 +106,8 @@
     "C:\\Users\\Charles\\.nuget\\packages\\xunit.core\\2.4.0\\xunit.core.2.4.0.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\xunit.extensibility.core\\2.4.0\\xunit.extensibility.core.2.4.0.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\xunit.extensibility.execution\\2.4.0\\xunit.extensibility.execution.2.4.0.nupkg.sha512",
-    "C:\\Users\\Charles\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512"
+    "C:\\Users\\Charles\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }

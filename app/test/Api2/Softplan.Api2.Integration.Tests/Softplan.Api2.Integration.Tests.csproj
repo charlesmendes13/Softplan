@@ -8,8 +8,10 @@
 
   <ItemGroup>
     <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="3.1.7" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
     <PackageReference Include="Moq" Version="4.14.5" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
@@ -17,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\src\Api2\Softplan.Api2.Application\Softplan.Api2.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\Api2\Softplan.Api2\Softplan.Api2.csproj" />
   </ItemGroup>
 
 </Project>
