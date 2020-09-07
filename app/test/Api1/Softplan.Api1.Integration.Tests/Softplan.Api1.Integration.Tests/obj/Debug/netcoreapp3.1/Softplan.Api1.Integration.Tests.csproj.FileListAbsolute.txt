@@ -495,3 +495,11 @@ D:\Visual Studio\Softplan\app\test\Api1\Softplan.Api1.Integration.Tests\Softplan
 D:\Visual Studio\Softplan\app\test\Api1\Softplan.Api1.Integration.Tests\Softplan.Api1.Integration.Tests\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 D:\Visual Studio\Softplan\app\test\Api1\Softplan.Api1.Integration.Tests\Softplan.Api1.Integration.Tests\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 D:\Visual Studio\Softplan\app\test\Api1\Softplan.Api1.Integration.Tests\Softplan.Api1.Integration.Tests\obj\Debug\netcoreapp3.1\Softplan.Api1.Integration.Tests.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Softplan\app\test\Api1\Softplan.Api1.Integration.Tests\Softplan.Api1.Integration.Tests\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+D:\Visual Studio\Softplan\app\test\Api1\Softplan.Api1.Integration.Tests\Softplan.Api1.Integration.Tests\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+D:\Visual Studio\Softplan\app\test\Api1\Softplan.Api1.Integration.Tests\Softplan.Api1.Integration.Tests\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+D:\Visual Studio\Softplan\app\test\Api1\Softplan.Api1.Integration.Tests\Softplan.Api1.Integration.Tests\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+D:\Visual Studio\Softplan\app\test\Api1\Softplan.Api1.Integration.Tests\Softplan.Api1.Integration.Tests\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+D:\Visual Studio\Softplan\app\test\Api1\Softplan.Api1.Integration.Tests\Softplan.Api1.Integration.Tests\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+D:\Visual Studio\Softplan\app\test\Api1\Softplan.Api1.Integration.Tests\Softplan.Api1.Integration.Tests\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+D:\Visual Studio\Softplan\app\test\Api1\Softplan.Api1.Integration.Tests\Softplan.Api1.Integration.Tests\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll

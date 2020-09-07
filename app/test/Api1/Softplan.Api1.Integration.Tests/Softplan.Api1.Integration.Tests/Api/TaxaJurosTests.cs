@@ -4,24 +4,24 @@ using System.Net;
 using System.Net.Http;
 using Microsoft.AspNetCore.Mvc.Testing;
 
-namespace Softplan.Api2.Integration.Tests.Controller
+namespace Softplan.Api1.Integration.Tests.Controller
 {
-    public class ShowMeTheCodeControllerTests : IClassFixture<WebApplicationFactory<Startup>>
+    public class TaxaJurosTests : IClassFixture<WebApplicationFactory<Startup>>
     {
         private readonly WebApplicationFactory<Startup> _factory;
 
-        public ShowMeTheCodeControllerTests(WebApplicationFactory<Startup> factory)
+        public TaxaJurosTests(WebApplicationFactory<Startup> factory)
         {
             _factory = factory;
         }
 
         [Theory]
         [InlineData("GET")]
-        public async void CalculaJuros_Get_Returns_Ok_Response(string metodo)
+        public async void TaxaJuros_Get_Returns_Ok_Response(string metodo)
         {
             var client = _factory.CreateClient();
 
-            var request = new HttpRequestMessage(new HttpMethod(metodo), "/api/ShowMeTheCode");
+            var request = new HttpRequestMessage(new HttpMethod(metodo), "/api/TaxaJuros");
 
             var response = await client.SendAsync(request);
 
@@ -31,7 +31,7 @@ namespace Softplan.Api2.Integration.Tests.Controller
 
             var result = await response.Content.ReadAsStringAsync();
 
-            result.Should().Be("https://github.com/charlesmendes13/softplan");
+            result.Should().Be("0.01");
         }
     }
 }

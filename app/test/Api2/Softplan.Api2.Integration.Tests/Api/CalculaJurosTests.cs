@@ -11,12 +11,12 @@ using Softplan.Api2.Domain;
 
 namespace Softplan.Api2.Integration.Tests.Controller
 {
-    public class CalculaJurosControllerTests : IClassFixture<WebApplicationFactory<Startup>>
+    public class CalculaJurosTests : IClassFixture<WebApplicationFactory<Startup>>
     {
         private readonly Mock<ITaxaJurosService> _taxaJurosService = new Mock<ITaxaJurosService>();
         private readonly WebApplicationFactory<Startup> _factory;
 
-        public CalculaJurosControllerTests(WebApplicationFactory<Startup> factory)
+        public CalculaJurosTests(WebApplicationFactory<Startup> factory)
         {
             _taxaJurosService.Setup(x => x.ObterAsync()).Returns(Task.FromResult(0.01m));
             _factory = factory;
