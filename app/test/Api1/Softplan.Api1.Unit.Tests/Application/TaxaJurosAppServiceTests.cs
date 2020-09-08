@@ -3,7 +3,7 @@ using Xunit;
 using Softplan.Api1.Domain;
 using Softplan.Api1.Application;
 
-namespace Softplan.Api1.Integration.Tests
+namespace Softplan.Api1.Unit.Tests
 {
     public class TaxaJurosAppServiceTests
     {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3ns4NFyi+29kvJZXGDjvFyNk9+wv1+DCeOtFMaIBARCH+5LcVhIFO5ayopKxE43sW/IqTsZE1joLgsE16K3/MA==",
+  "dgSpecHash": "/hCgZcikVuD+2EoyehMSwOUSmELHWEn4qxu/uV+iqRn18Rtrmg+XfrbBYolJTOVRLPAXS0UHH86XpVyo+m2X3g==",
   "success": true,
   "projectFilePath": "D:\\Visual Studio\\Softplan\\app\\src\\Api1\\Softplan.Api1\\Softplan.Api1.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,8 @@
     "C:\\Users\\Charles\\.nuget\\packages\\swashbuckle.aspnetcore\\5.5.1\\swashbuckle.aspnetcore.5.5.1.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.5.1\\swashbuckle.aspnetcore.swagger.5.5.1.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.5.1\\swashbuckle.aspnetcore.swaggergen.5.5.1.nupkg.sha512",
-    "C:\\Users\\Charles\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.5.1\\swashbuckle.aspnetcore.swaggerui.5.5.1.nupkg.sha512"
+    "C:\\Users\\Charles\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.5.1\\swashbuckle.aspnetcore.swaggerui.5.5.1.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }

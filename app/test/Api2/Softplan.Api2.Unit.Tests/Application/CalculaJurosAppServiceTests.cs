@@ -5,7 +5,7 @@ using FluentAssertions;
 using Softplan.Api2.Domain;
 using Softplan.Api2.Application;
 
-namespace Softplan.Api2.Integration.Tests
+namespace Softplan.Api2.Unit.Tests
 {
     public class CalculaJurosAppServiceTests
     {
