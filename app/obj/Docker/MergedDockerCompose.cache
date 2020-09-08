@@ -7,7 +7,7 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
     image: softplanapi1
     ports:
-    - published: 8001
+    - published: 5001
       target: 80
   softplan.api2:
     build:
@@ -17,6 +17,6 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
     image: softplanapi2
     ports:
-    - published: 8002
+    - published: 5002
       target: 80
 version: '3.4'
