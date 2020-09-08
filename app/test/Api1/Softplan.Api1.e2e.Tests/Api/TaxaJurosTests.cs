@@ -17,7 +17,9 @@ namespace Softplan.Api1.e2e.Tests
         [Fact]
         public void Obter_Taxa_Juros()
         {
-            driver.Navigate().GoToUrl("https://localhost:5001/api/TaxaJuros");            
+            driver.Navigate().GoToUrl("localhost:5001/api/TaxaJuros");
+
+            System.Threading.Thread.Sleep(3000);
         }
 
         public void Dispose()

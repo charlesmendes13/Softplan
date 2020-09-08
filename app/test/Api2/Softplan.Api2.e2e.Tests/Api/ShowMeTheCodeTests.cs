@@ -17,7 +17,7 @@ namespace Softplan.Api2.e2e.Tests
         [Fact]
         public void Obter_Url_Git()
         {
-            driver.Navigate().GoToUrl("https://localhost:5001/api/ShowMeTheCode");
+            driver.Navigate().GoToUrl("localhost:5001/api/ShowMeTheCode");
         }
 
         public void Dispose()

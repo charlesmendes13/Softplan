@@ -17,7 +17,7 @@ namespace Softplan.Api2.e2e.Tests
         [Fact]
         public void Calcula_Juros()
         {
-            driver.Navigate().GoToUrl("https://localhost:5001/api/CalculaJuros");
+            driver.Navigate().GoToUrl("localhost:5001/api/CalculaJuros");
         }
 
         public void Dispose()
