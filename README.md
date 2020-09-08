@@ -11,8 +11,8 @@
 ```
 
 ## Urls
-* Api1: http://localhost:8001/swagger
-* Api2: http://localhost:8002/swagger
+* Api1: http://localhost:5001/swagger
+* Api2: http://localhost:5002/swagger
 
 ## O Desafio
 Você deverá criar duas API's uma com dois endpoints e outra com um endpoint:

@@ -30,14 +30,10 @@ namespace Softplan.Api2
             services.AddControllers();
 
             // Polly
-            
+
             services.AddHttpClient(Configuration["Api1:Instance"], c =>
             {
-                #if Docker
-                    c.BaseAddress = new Uri(Configuration["Api1:UriDocker"]);
-                #else
-                    c.BaseAddress = new Uri(Configuration["Api1:Uri"]);
-                #endif
+                c.BaseAddress = new Uri(Configuration["Api1:Uri"]);
             })
             .SetHandlerLifetime(TimeSpan.FromMinutes(5))
             .AddPolicyHandler(GetRetryPolicy());

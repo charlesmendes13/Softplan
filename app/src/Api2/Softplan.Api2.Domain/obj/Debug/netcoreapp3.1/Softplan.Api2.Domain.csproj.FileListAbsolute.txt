@@ -9,9 +9,9 @@ D:\Visual Studio\softplan\Softplan\src\Api2\Softplan.Api2.Domain\obj\Debug\netco
 D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.deps.json
 D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.dll
 D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\bin\Debug\netcoreapp3.1\Softplan.Api2.Domain.pdb
-D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\obj\Debug\netcoreapp3.1\Softplan.Api2.Domain.csprojAssemblyReference.cache
 D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\obj\Debug\netcoreapp3.1\Softplan.Api2.Domain.AssemblyInfoInputs.cache
 D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\obj\Debug\netcoreapp3.1\Softplan.Api2.Domain.AssemblyInfo.cs
 D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\obj\Debug\netcoreapp3.1\Softplan.Api2.Domain.csproj.CoreCompileInputs.cache
 D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\obj\Debug\netcoreapp3.1\Softplan.Api2.Domain.dll
 D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\obj\Debug\netcoreapp3.1\Softplan.Api2.Domain.pdb
+D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\obj\Debug\netcoreapp3.1\Softplan.Api2.Domain.csprojAssemblyReference.cache
