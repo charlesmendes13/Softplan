@@ -1,6 +1,8 @@
-﻿using OpenQA.Selenium;
+﻿using FluentAssertions;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
+using System.Net;
 using Xunit;
 
 namespace Softplan.Api1.e2e.Tests
@@ -19,7 +21,9 @@ namespace Softplan.Api1.e2e.Tests
         {
             driver.Navigate().GoToUrl("localhost:5001/api/TaxaJuros");
 
-            System.Threading.Thread.Sleep(3000);
+            var response = driver.FindElement(By.TagName("pre")).Text;
+
+            response.Should().Be("0.01");
         }
 
         public void Dispose()

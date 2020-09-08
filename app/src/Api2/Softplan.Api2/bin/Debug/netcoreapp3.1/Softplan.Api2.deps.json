@@ -6,6 +6,7 @@
   "compilationOptions": {
     "defines": [
       "TRACE",
+      "Docker",
       "DEBUG",
       "NETCOREAPP",
       "NETCOREAPP3_1"
