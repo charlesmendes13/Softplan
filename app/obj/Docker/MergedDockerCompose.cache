@@ -1,8 +1,6 @@
 networks:
   softplan-network:
-    ipam:
-      config:
-      - subnet: 192.168.0.0/16
+    driver: bridge
 services:
   softplan.api1:
     build:
@@ -13,8 +11,7 @@ services:
       ASPNETCORE_URLS: http://+:5001
     image: softplanapi1
     networks:
-      softplan-network:
-        ipv4_address: 192.168.0.110
+      softplan-network: {}
     ports:
     - published: 5001
       target: 5001
@@ -27,8 +24,7 @@ services:
       ASPNETCORE_URLS: http://+:5002
     image: softplanapi2
     networks:
-      softplan-network:
-        ipv4_address: 192.168.0.111
+      softplan-network: {}
     ports:
     - published: 5002
       target: 5002
