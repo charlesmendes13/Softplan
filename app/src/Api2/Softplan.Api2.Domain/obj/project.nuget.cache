@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yFSeMWRigUUYi3oaJbtnLuySCN0Ovwb3WQAnGsjX9X9RS/IDBa5UOcyLGAtpC0eZhObrKaLp9yUK8r7O+bhx5w==",
+  "dgSpecHash": "f9R5OIhvegiU6YfZuyBrwz7cm7hbD472e1DNHzOFGlF21jkDTudiqWWSEPhxG9lFlem37UyscZ6uOFWkLxxOiw==",
   "success": true,
   "projectFilePath": "D:\\Visual Studio\\Softplan\\app\\src\\Api2\\Softplan.Api2.Domain\\Softplan.Api2.Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

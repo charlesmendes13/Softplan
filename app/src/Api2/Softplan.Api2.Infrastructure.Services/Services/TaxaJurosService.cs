@@ -3,6 +3,7 @@ using System.Net.Http;
 using Newtonsoft.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using System;
 
 namespace Softplan.Api2.Infrastructure
 {
@@ -20,12 +21,19 @@ namespace Softplan.Api2.Infrastructure
 
         public async Task<decimal> ObterAsync()
         {
-            var client = _httpClientFactory.CreateClient(_configuration["Api1:Instance"]);
-            var response = await client.GetAsync("api/TaxaJuros");
+            try
+            {
+                var client = _httpClientFactory.CreateClient(_configuration["Api1:Instance"]);
+                var response = await client.GetAsync("api/TaxaJuros");
 
-            var result = await response.Content.ReadAsStringAsync();
+                var result = await response.Content.ReadAsStringAsync();
 
-            return JsonConvert.DeserializeObject<decimal>(result);
+                return JsonConvert.DeserializeObject<decimal>(result);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Não foi possível obter a Taxa de Jutos", ex);
+            }            
         }
     }
 }

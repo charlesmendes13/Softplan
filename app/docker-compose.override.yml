@@ -2,14 +2,15 @@ version: '3.4'
 
 services:
   softplan.api1:
-    environment:
+    environment:     
       - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5001
     ports:
-      - "5001:80"
+      - "5001:5001"
 
   softplan.api2:
-    environment:
+    environment:    
       - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5002
     ports:
-      - "5002:80"
-
+      - "5002:5002"
