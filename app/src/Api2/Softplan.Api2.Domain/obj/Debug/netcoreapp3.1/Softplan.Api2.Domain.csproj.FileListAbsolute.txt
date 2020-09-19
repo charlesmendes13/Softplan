@@ -14,4 +14,3 @@ D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\obj\Debug\netcoreapp
 D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\obj\Debug\netcoreapp3.1\Softplan.Api2.Domain.csproj.CoreCompileInputs.cache
 D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\obj\Debug\netcoreapp3.1\Softplan.Api2.Domain.dll
 D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\obj\Debug\netcoreapp3.1\Softplan.Api2.Domain.pdb
-D:\Visual Studio\Softplan\app\src\Api2\Softplan.Api2.Domain\obj\Debug\netcoreapp3.1\Softplan.Api2.Domain.csprojAssemblyReference.cache

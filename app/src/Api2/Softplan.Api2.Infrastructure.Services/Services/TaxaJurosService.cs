@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using System;
+using System.Runtime.InteropServices;
 
 namespace Softplan.Api2.Infrastructure
 {
@@ -32,7 +33,7 @@ namespace Softplan.Api2.Infrastructure
             }
             catch (Exception ex)
             {
-                throw new Exception("Não foi possível obter a Taxa de Jutos", ex);
+                throw new Exception("Não foi possível obter a Taxa de Juros", ex);
             }            
         }
     }
